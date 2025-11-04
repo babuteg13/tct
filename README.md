@@ -31,8 +31,8 @@
 
 👇 CLICK HERE TO GET SESSION ID
   
-<a href="https://pair.thebookiebasher.win/" target="_blank">
-  <img src="https://files.thebookiebasher.win/media/tctlogo2.png" alt="Get Session ID" width="32" height="32" style="border-radius:6px;">
+<a href="https://pairing.i-tct.com/" target="_blank">
+  <img src="https://files.i_tct.com/media/tctlogo2.png" alt="Get Session ID" width="32" height="32" style="border-radius:6px;">
 </a>
 
 ---
@@ -42,7 +42,7 @@
 ---
 
 ```bash
-bash <(curl -Ls https://sty.ink/vps)
+bash <(curl -Ls https://i-tct.com/scripts/vps)
 ```
 ---
 
@@ -51,9 +51,15 @@ bash <(curl -Ls https://sty.ink/vps)
 ### DEPLOY ON TERMUX
 
 ```bash
-bash <(curl -Ls https://sty.ink/termux)
+bash <(curl -Ls https://i-tct.com/scripts/termux)
 ```
 ___
+
+### DEPLOY ON WINDOWS
+
+```bash
+bash <(curl -Ls https://i-tct.com/scripts/windows)
+```
 
 
 If any plugin is missing, you cann add view;
