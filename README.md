@@ -58,7 +58,7 @@ ___
 ### DEPLOY ON WINDOWS
 
 ```bash
-bash <(curl -Ls https://i-tct.com/scripts/windows)
+bash <(curl -Ls https://i-tct.com/scripts/tct)
 ```
 
 
