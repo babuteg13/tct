@@ -46,6 +46,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development node bot.js",
+    "heroku": "node bot.js",
     "start": "npx pm2 start bot.js --name tct && npx pm2 logs tct"
   },
   "author": "TheCarlTech",
