@@ -32,7 +32,7 @@
 👇 CLICK HERE TO GET SESSION ID
   
 <a href="https://pairing.i-tct.com/" target="_blank">
-  <img src="https://i_tct.com/media/tctlogo2.png" alt="Get Session ID" width="32" height="32" style="border-radius:6px;">
+  <img src="https://i-tct.com/media/tctlogo2.png" alt="Get Session ID" width="32" height="32" style="border-radius:6px;">
 </a>
 
 ---
