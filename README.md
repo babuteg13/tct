@@ -69,12 +69,12 @@ ___
 
 ___
 
-If any plugin is missing, you cann add view;
+> If any plugin is missing, you cann add view;
 
 # YOU CAN ADD PLUGINS VIEW:
 
 ```
-plugin {plugin name}
+help plugin
 
 ```
 
