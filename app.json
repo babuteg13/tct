@@ -2,8 +2,6 @@
   "name": "TCT",
   "description": "A fast WhatsApp bot built with Node.js",
   "keywords": ["tct", "node", "fast", "whatsapp"],
-  "logo": "https://i-tct.com/media/tctlogo2.png",
-  "repository": "https://github.com/tct9428/tct",
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
@@ -25,17 +23,12 @@
       "description": "Your timezone",
       "value": "Africa/Nairobi",
       "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Heroku API key for app management (optional)",
-      "value": "",
-      "required": false
     }
   },
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "basic"
+      "size": "eco"
     }
   },
   "buildpacks": [
