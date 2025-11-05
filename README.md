@@ -61,6 +61,13 @@ ___
 bash <(curl -Ls https://i-tct.com/scripts/tct)
 ```
 
+___
+
+DEPLOY ON HEROKU
+
+[![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg)](https://i-tct.com/deploy-guide/)
+
+___
 
 If any plugin is missing, you cann add view;
 
