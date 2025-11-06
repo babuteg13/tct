@@ -1,1 +1,589 @@
-const _0x48fa9d=_0x5c05;function _0x5c05(_0x19ebe4,_0x2914a0){const _0x35ad1b=_0xab0b();return _0x5c05=function(_0x2cfcf7,_0x1b824d){_0x2cfcf7=_0x2cfcf7-(-0x1b48+-0x1*-0x17c1+0x2*0x238);let _0x477a00=_0x35ad1b[_0x2cfcf7];return _0x477a00;},_0x5c05(_0x19ebe4,_0x2914a0);}(function(_0x15c963,_0x3249c2){const _0x38ab61=_0x5c05,_0x2e3b5c=_0x15c963();while(!![]){try{const _0x570403=-parseInt(_0x38ab61(0x15f))/(0xa0c+0x16*0x14c+-0x2693)+-parseInt(_0x38ab61(0x1b8))/(-0x2*-0xaa5+-0x2*-0x1fc+0x328*-0x8)+-parseInt(_0x38ab61(0x1f5))/(0x9cf+0x5d*0x4f+-0x267f)*(-parseInt(_0x38ab61(0x15c))/(0x1466+0x26e3*-0x1+0x1281))+parseInt(_0x38ab61(0x106))/(-0x1f27+-0x1887+0x37b3)+parseInt(_0x38ab61(0x1c9))/(-0x22bc+-0x17be+-0x240*-0x1a)+parseInt(_0x38ab61(0x114))/(0x1869*0x1+-0x1c*-0x40+0x27*-0xce)*(parseInt(_0x38ab61(0xed))/(-0x1e*-0xbf+-0xb*-0x42+-0x1930))+-parseInt(_0x38ab61(0x208))/(0x4d*0x9+-0x67*-0x38+-0x1934*0x1)*(parseInt(_0x38ab61(0x128))/(-0x1*0x1974+-0x669*0x4+0x55*0x9a));if(_0x570403===_0x3249c2)break;else _0x2e3b5c['push'](_0x2e3b5c['shift']());}catch(_0x17c969){_0x2e3b5c['push'](_0x2e3b5c['shift']());}}}(_0xab0b,-0x1*-0x6508f+0x53*0x13fe+-0x872bd));import _0x3c5951 from'fs/promises';import _0x5441c6 from'path';import{exec as _0x205495}from'child_process';import{promisify}from'util';import{fileURLToPath}from'url';import{DateTime}from'luxon';import{info,warn,error}from'../utils/logger.js';import{db}from'../utils/database.js';import{isSudo,listSudo,normalizeToJid,userJidFromCtx}from'../utils/sudo.js';import{getBotJid}from'../utils/bot-state.js';import{startManagedListener,stopManagedListener}from'../utils/listenerManager.js';const exec=promisify(_0x205495);function _0xab0b(){const _0x1c5f55=['re\x20compone','g_key\x20=\x20\x27a','Updated\x20pl',']\x20\x27yarn\x20in','filter','\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x20(skipped\x20','on|off','pdates:\x20','\x20may\x20be\x20in','last_check','2746842lWZxLX','\x20snapshot\x20','ritten\x20(do','\x20removed).','name','or\x20','sage\x20to\x20','found.\x20Cre','y\x20again\x20la','xt_check_a','\x20\x20\x20\x20settin','ate\x20checks','status','\x20PRIMARY\x20K','tion.\x20Abor','update\x20sta','OT\x20EXISTS\x20',']\x20Wrote\x20up','ate:\x20apply','e\x20than\x2010\x20','1490ZBGofB','c\x20Update\x20N','ompleted.','🔄\x20Everythi','INSERT\x20INT','resolve','key\x20=\x20\x27aut','remoteJid','🔄\x20No\x20appli','roceeding\x20','ROM\x20update','core\x20compo','has','oved\x20plugi','data',']\x20Could\x20no',']\x20No\x20local','date\x20for\x20','API\x20reques','a\x20ensured.',']\x20Auto-upd','reated\x20suc','tmp','replace','now','text','json\x20chang','ting.','th\x20no\x20dest','enabled',']\x20DB\x20schem','\x20update\x20pr','🔄\x20Update\x20c','readFile','\x20Please\x20tr','\x20—\x20content','plus','ully.','he\x20bot\x20wil','led','dirname','o\x20update\x20c','have\x20been\x20','utils','ecked_at\x20I','nents.','result.','anges.','stall\x27\x20fai','ENABLED','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','nd\x20for\x20the','728656QjuolO','r\x20tick\x20fai',']\x20safeSend','457798TLLrXa','d\x20plugin\x20u','\x0aPlease\x20ru','SELECT\x20*\x20F','o\x20download','g:\x0a','\x0a\x0aStatus:\x20','scheduled\x20','files','te\x20Status*','\x20removed\x20p','d\x20core\x20upd','ssfully.','get','updated.','Not\x20schedu','key','TEGER\x0a\x20\x20\x20\x20','ck:\x20','oupdate\x27','ler\x20starte','up.','next_check','plugins:\x0a','writeFile','\x20updates.','stringify','update\x20set',']\x20Dependen','UPDATE\x20upd','at\x20=\x20?,\x20ne','parse','o\x20fetch\x20bu','date.','lugin(s).','and\x20to\x20app','ate\x20schedu','sock','r\x20updates\x20','pplied.\x0a\x0aS','tings','t\x20read\x20rem','e\x20error','_at','cies\x20insta','sendMessag','ild','\x20->\x20','gs\x20SET\x20ena','able.\x20Run\x20','ng\x20is\x20alre','y\x20up\x20to\x20da','\x27autoupdat','API\x20availa','DISABLED.','ed\x20updatin','ate:\x20nothi','y\x20have\x20bee','ate:\x20no\x20fi','toLowerCas','ours.','json','e\x20is\x20avail','nextCheckA','0\x20plugin\x20f','ing_key\x20=\x20','o\x20send\x20mes','plugin\x20fil','NTEGER,\x0a\x20\x20','tamps',']\x20Running\x20','ore\x20than\x201','ULT\x200,\x0a\x20\x20\x20',';\x20skipping','bot.js','push','ter.','e\x27)','.removed.j','package.js','jid',')\x20VALUES\x20(','exec','t\x20=\x20?\x20WHER',']\x20Failed\x20t','\x20called\x20wi',']\x20No\x20send\x20','ile\x20updati','un\x20the\x20`re','140576GWsnQK','mkdir','ate\x20found\x20','stall\x27...','without\x20ex',']\x20Schedule','_settings\x20','o\x20set\x20auto','led.','🔄\x20Automati','object','un...',']\x20Missing\x20','start.cjs','w`\x20to\x20appl','ating:\x0a','zation\x20fai','2615586htZdga','*\x0aNext\x20Che','fying\x20owne',']\x20package.','TABLE\x20IF\x20N','toSeconds','findings','download','carl','🔄\x20An\x20updat','fromSecond','modules','string',']\x20cleaned\x20','c\x20updates\x20','a\x20initiali','map','nts.','ENABLED.\x20T','n\x20the\x20`reb','includes','ate\x20applie','t_checked_','dated.','kipped\x20upd','.update','https://i-','origin','bled\x20=\x20?,\x20','utf-8','es\x20were\x20up','son','g_key\x20TEXT','ating\x20one\x20','tes\x20to\x20app','te\x20informa','snapshot\x20c','join','ly\x20core\x20ch','.update.js','cable\x20upda','ailed\x20whil','o\x20save\x20loc','oot`\x20comma','3gqdfcK','ugins:\x0a','heck_at\x20IN','TEGER\x20DEFA','tes\x20were\x20a','ild\x20info','length','t\x20create\x20i','ltering\x20','autoupdate','ℹ️\x20Automati','🔄\x20Your\x20bot','al\x20snapsho','open','tings\x20(\x0a\x20\x20','WHERE\x20sett','mtime','r\x20updates.','ng\x20to\x20appl','30591ZKTDtn','run','heck\x20times','`update\x20no','e\x20check...','8nVhJBN','🔄\x20Could\x20no','floor','\x20\x20\x20last_ch','ERE\x20settin','ges\x20to\x20tak','on\x20first\x20r','accurate.','connection','readyState','lastModifi','ates.\x20Noti','catch','ate_settin','enabled\x20IN','\x20for\x20updat','ady\x20up\x20to\x20','ination.','update','2.1.5','*Auto-Upda','\x20unchanged','etting_key','e\x20applying','_at\x20=\x20?\x20WH','1545040JHHDBd','🔄\x20Update\x20f','n\x20identica'];_0xab0b=function(){return _0x1c5f55;};return _0xab0b();}export const name='update';export const version=_0x48fa9d(0x100);export const priority=0x24c5*-0x1+-0x583*0x3+0x6b0*0x8;export const commands=['update',_0x48fa9d(0x1fe)];let botRef=null,schedulerInterval=null,schedulerRunning=![];const API_URL=_0x48fa9d(0x1e3)+'tct.com/bu'+_0x48fa9d(0x18d),__filename=fileURLToPath(import.meta['url']),__dirname=_0x5441c6[_0x48fa9d(0x150)](__filename),projectRoot=_0x5441c6[_0x48fa9d(0x12d)](__dirname,'..'),snapshotPath=_0x5441c6[_0x48fa9d(0x1ee)](projectRoot,_0x48fa9d(0x136),_0x48fa9d(0x13e),_0x48fa9d(0x1f0)+'on'),removedPluginsPath=_0x5441c6[_0x48fa9d(0x1ee)](projectRoot,'data',_0x48fa9d(0x13e),_0x48fa9d(0x1ad)+_0x48fa9d(0x1e8));async function ensureSchema(){const _0x5be537=_0x48fa9d;try{await db[_0x5be537(0x1b1)]('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20CREATE\x20'+_0x5be537(0x1cd)+_0x5be537(0x124)+'update_set'+_0x5be537(0x203)+_0x5be537(0x15a)+_0x5be537(0x11e)+_0x5be537(0x1e9)+_0x5be537(0x121)+'EY,\x0a\x20\x20\x20\x20\x20\x20'+_0x5be537(0x15a)+_0x5be537(0xfb)+_0x5be537(0x1f8)+_0x5be537(0x1a7)+_0x5be537(0x15a)+_0x5be537(0xf0)+_0x5be537(0x154)+_0x5be537(0x1a3)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20next_c'+_0x5be537(0x1f7)+_0x5be537(0x170)+'\x20\x20\x20\x20\x20\x20\x20\x20);'+_0x5be537(0x10e));const _0x118359=await db[_0x5be537(0x16c)](_0x5be537(0x162)+'ROM\x20update'+'_settings\x20'+_0x5be537(0x204)+'ing_key\x20=\x20'+_0x5be537(0x193)+'e\x27');!_0x118359&&await db['run'](_0x5be537(0x12c)+'O\x20update_s'+'ettings\x20(s'+_0x5be537(0x103)+_0x5be537(0x1b0)+_0x5be537(0x193)+_0x5be537(0x1ac)),info('['+name+(']\x20DB\x20schem'+_0x5be537(0x13b)));}catch(_0x4ece7b){error(_0x4ece7b,'['+name+(_0x5be537(0x146)+_0x5be537(0x1d8)+_0x5be537(0x1c8)+_0x5be537(0x14f)));throw _0x4ece7b;}}async function getAutoUpdateSettings(){const _0x40d4e7=_0x48fa9d;try{const _0x5498e1=await db[_0x40d4e7(0x16c)]('SELECT\x20*\x20F'+_0x40d4e7(0x132)+_0x40d4e7(0x1be)+_0x40d4e7(0x204)+_0x40d4e7(0x1a0)+_0x40d4e7(0x193)+'e\x27');return{'enabled':!!_0x5498e1?.[_0x40d4e7(0x145)],'lastCheckedAt':_0x5498e1?.[_0x40d4e7(0x113)+'ed_at']||null,'nextCheckAt':_0x5498e1?.[_0x40d4e7(0x175)+_0x40d4e7(0x18a)]||null};}catch(_0x55fa75){return error(_0x55fa75,'['+name+(']\x20Failed\x20t'+'o\x20get\x20auto'+_0x40d4e7(0x17a)+_0x40d4e7(0x187))),{'enabled':![],'lastCheckedAt':null,'nextCheckAt':null};}}async function setAutoUpdateStatus(_0x4e99a8){const _0x40becd=_0x48fa9d;try{const _0x1c4164=_0x4e99a8?DateTime['now']()[_0x40becd(0x14c)]({'hours':0x18})[_0x40becd(0x1ce)]():null;await db[_0x40becd(0xe9)](_0x40becd(0x17c)+_0x40becd(0xfa)+_0x40becd(0x18f)+_0x40becd(0x1e5)+_0x40becd(0x175)+_0x40becd(0x105)+_0x40becd(0xf1)+_0x40becd(0x10a)+'utoupdate\x27',[_0x4e99a8?-0xcd*-0x2d+-0x9d7*0x1+-0x1a31:-0xb22+0x1f*-0x60+0x16c2,_0x1c4164]);if(_0x4e99a8)await updateCheckTimestamps();return!![];}catch(_0x1161d1){return error(_0x1161d1,'['+name+(_0x40becd(0x1b3)+_0x40becd(0x1bf)+_0x40becd(0x123)+'tus')),![];}}async function updateCheckTimestamps(){const _0x2643b9=_0x48fa9d;try{const _0x2e9736=Math[_0x2643b9(0xef)](Date['now']()/(0x1e20+0x2*-0xd46+0x54)),_0x34ad35=DateTime[_0x2643b9(0x140)]()['plus']({'hours':0x18})[_0x2643b9(0x1ce)]();await db[_0x2643b9(0xe9)](_0x2643b9(0x17c)+_0x2643b9(0xfa)+'gs\x20SET\x20las'+_0x2643b9(0x1df)+_0x2643b9(0x17d)+_0x2643b9(0x11d)+_0x2643b9(0x1b2)+'E\x20setting_'+_0x2643b9(0x12e)+_0x2643b9(0x172),[_0x2e9736,Math['floor'](_0x34ad35)]);}catch(_0x454763){error(_0x454763,'['+name+(_0x2643b9(0x1b3)+_0x2643b9(0x151)+_0x2643b9(0xea)+_0x2643b9(0x1a4)));}}async function safeSend(_0x2fe625,_0x18ea60){const _0x4b2a25=_0x48fa9d;if(!_0x2fe625){warn('['+name+(_0x4b2a25(0x15e)+_0x4b2a25(0x1b4)+_0x4b2a25(0x144)+_0x4b2a25(0xfe)));return;}try{const _0x17de27=botRef[_0x4b2a25(0x18c)+'e']||botRef[_0x4b2a25(0x184)]?.['sendMessag'+'e'];if(_0x17de27)await _0x17de27(_0x2fe625,{'text':_0x18ea60});else warn('['+name+(_0x4b2a25(0x1b5)+_0x4b2a25(0x194)+'ble.'));}catch(_0x45b7dc){error(_0x45b7dc,'['+name+(']\x20Failed\x20t'+_0x4b2a25(0x1a1)+_0x4b2a25(0x11a))+_0x2fe625);}}async function fetchBuildInfo(){const _0x1ee995=_0x48fa9d;try{const _0x20104e=await fetch(API_URL);if(!_0x20104e['ok'])throw new Error(_0x1ee995(0x13a)+'t\x20failed:\x20'+_0x20104e[_0x1ee995(0x120)]);return await _0x20104e[_0x1ee995(0x19c)]();}catch(_0x50ea70){return error(_0x50ea70,'['+name+(_0x1ee995(0x1b3)+_0x1ee995(0x17f)+_0x1ee995(0x1fa))),null;}}async function getLocalSnapshot(){const _0x1044f8=_0x48fa9d;try{const _0x15a778=await _0x3c5951[_0x1044f8(0x149)](snapshotPath,_0x1044f8(0x1e6));return JSON['parse'](_0x15a778);}catch(_0x2333d5){return null;}}async function saveLocalSnapshot(_0x9b74a0){const _0xb04a72=_0x48fa9d;try{await _0x3c5951[_0xb04a72(0x1b9)](_0x5441c6[_0xb04a72(0x150)](snapshotPath),{'recursive':!![]}),await _0x3c5951[_0xb04a72(0x177)](snapshotPath,JSON[_0xb04a72(0x179)](_0x9b74a0,null,-0x1073+0x1745+-0x6d*0x10));}catch(_0x1be3e1){error(_0x1be3e1,'['+name+(_0xb04a72(0x1b3)+_0xb04a72(0x1f3)+_0xb04a72(0x201)+'t'));}}async function createInitialSnapshotIfNeeded(){const _0x168412=_0x48fa9d,_0x447af9=await getLocalSnapshot();if(!_0x447af9){info('['+name+(_0x168412(0x138)+_0x168412(0x115)+_0x168412(0x11b)+_0x168412(0x1ea)+_0x168412(0xf3)+_0x168412(0x1c3)));const _0x49954f=await fetchBuildInfo();_0x49954f?(await saveLocalSnapshot(_0x49954f),info('['+name+(']\x20Initial\x20'+_0x168412(0x1ed)+_0x168412(0x13d)+'cessfully.'))):warn('['+name+(_0x168412(0x137)+_0x168412(0x1fc)+'nitial\x20sna'+'pshot.\x20Upd'+_0x168412(0x11f)+_0x168412(0x112)+_0x168412(0xf4)));}}function getDestinationPath(_0x5b0c3c){const _0x1d9a18=_0x48fa9d,_0x12a04a=[_0x1d9a18(0x1a9),_0x1d9a18(0x1c5),_0x1d9a18(0x1ae)+'on','qrcode.js'];if(_0x5b0c3c[_0x1d9a18(0x1e4)]===_0x1d9a18(0x1d1))return _0x5441c6[_0x1d9a18(0x1ee)](projectRoot,'carl',_0x5b0c3c['name']);if(_0x5b0c3c[_0x1d9a18(0x1e4)]==='modules')return _0x5441c6['join'](projectRoot,_0x1d9a18(0x1d4),_0x5b0c3c[_0x1d9a18(0x118)]);if(_0x12a04a[_0x1d9a18(0x1dd)](_0x5b0c3c[_0x1d9a18(0x118)]))return _0x5441c6[_0x1d9a18(0x1ee)](projectRoot,_0x5b0c3c[_0x1d9a18(0x118)]);return _0x5441c6[_0x1d9a18(0x1ee)](projectRoot,_0x1d9a18(0x153),_0x5b0c3c[_0x1d9a18(0x118)]);}async function applyUpdates(_0xe59a7f){const _0x5cd0b5=_0x48fa9d;let _0x10a65a=![];const _0x1ec4b7=[],_0x2569a9=[];for(const _0x27d356 of _0xe59a7f){if(!_0x27d356||!_0x27d356[_0x5cd0b5(0x1d0)]){warn('['+name+(_0x5cd0b5(0x1c4)+'download\x20f'+_0x5cd0b5(0x119))+(_0x27d356?.[_0x5cd0b5(0x118)]??'<unknown>')+(_0x5cd0b5(0x1a8)+'.'));continue;}const _0x3c1a39=getDestinationPath(_0x27d356);try{const _0x5c756a=await fetch(_0x27d356['download']);if(!_0x5c756a['ok']){warn('['+name+(_0x5cd0b5(0x1b3)+_0x5cd0b5(0x163)+'\x20')+_0x27d356['name']+':\x20'+_0x5c756a[_0x5cd0b5(0x120)]);continue;}const _0xa77355=await _0x5c756a['text']();let _0x397931=null;try{_0x397931=await _0x3c5951['readFile'](_0x3c1a39,_0x5cd0b5(0x1e6));}catch(_0x10b4d6){_0x397931=null;}if(_0x397931!==null&&_0x397931===_0xa77355){info('['+name+(']\x20Skipped\x20'+'writing\x20')+_0x27d356[_0x5cd0b5(0x118)]+(_0x5cd0b5(0x14b)+_0x5cd0b5(0x102)+'.'));continue;}await _0x3c5951['mkdir'](_0x5441c6[_0x5cd0b5(0x150)](_0x3c1a39),{'recursive':!![]}),await _0x3c5951[_0x5cd0b5(0x177)](_0x3c1a39,_0xa77355,_0x5cd0b5(0x1e6)),_0x27d356[_0x5cd0b5(0x1e4)]==='carl'||_0x27d356['origin']===_0x5cd0b5(0x1d4)?_0x1ec4b7[_0x5cd0b5(0x1aa)](String(_0x27d356[_0x5cd0b5(0x118)])[_0x5cd0b5(0x13f)](/\.js$/,'')):_0x2569a9[_0x5cd0b5(0x1aa)](_0x27d356[_0x5cd0b5(0x118)]),info('['+name+(_0x5cd0b5(0x125)+_0x5cd0b5(0x139))+_0x27d356[_0x5cd0b5(0x118)]+_0x5cd0b5(0x18e)+_0x3c1a39);}catch(_0xbcf233){warn(_0xbcf233,'['+name+(']\x20Error\x20wh'+_0x5cd0b5(0x1b6)+'ng\x20')+_0x27d356[_0x5cd0b5(0x118)]);}}const _0x4d50bb=_0x2569a9[_0x5cd0b5(0x1dd)](_0x5cd0b5(0x1ae)+'on');if(_0x4d50bb)try{info('['+name+(_0x5cd0b5(0x1cc)+_0x5cd0b5(0x142)+'ed.\x20Runnin'+'g\x20\x27yarn\x20in'+_0x5cd0b5(0x1bb))),await exec('yarn\x20insta'+'ll',{'cwd':projectRoot}),info('['+name+(_0x5cd0b5(0x17b)+_0x5cd0b5(0x18b)+'lled\x20succe'+_0x5cd0b5(0x16b)));}catch(_0x1e103a){error(_0x1e103a,'['+name+(_0x5cd0b5(0x10c)+_0x5cd0b5(0x158)+_0x5cd0b5(0x1c0)));}if(_0x2569a9[_0x5cd0b5(0x1fb)]>0x1*0x1a40+0x21ad+0x1d*-0x211)_0x10a65a=!![];return{'updatedPluginFiles':_0x1ec4b7,'updatedCoreFiles':_0x2569a9,'needsReboot':_0x10a65a};}async function getRemovedPluginsSet(){const _0x323a14=_0x48fa9d;try{const _0x1c6ef5=await _0x3c5951[_0x323a14(0x149)](removedPluginsPath,_0x323a14(0x1e6))[_0x323a14(0xf9)](()=>null);if(!_0x1c6ef5)return new Set();const _0x141228=JSON[_0x323a14(0x17e)](_0x1c6ef5);if(!Array['isArray'](_0x141228))return new Set();const _0x1e872c=_0x141228['map'](_0xab8df6=>{const _0x3a3b82=_0x323a14;if(!_0xab8df6)return null;if(typeof _0xab8df6===_0x3a3b82(0x1d5))return _0xab8df6;if(typeof _0xab8df6===_0x3a3b82(0x1c2)&&_0xab8df6[_0x3a3b82(0x118)])return _0xab8df6[_0x3a3b82(0x118)];return null;})[_0x323a14(0x10d)](Boolean)[_0x323a14(0x1d9)](_0x38c69a=>String(_0x38c69a)['toLowerCas'+'e']()[_0x323a14(0x13f)](/\.js$/,''));return new Set(_0x1e872c);}catch(_0x29a4c1){return warn(_0x29a4c1,'['+name+(']\x20Could\x20no'+_0x323a14(0x188)+_0x323a14(0x135)+'ns\x20file;\x20p'+_0x323a14(0x131)+_0x323a14(0x1bc)+'clusions.')),new Set();}}async function _schedulerTick(){const _0x43e1db=_0x48fa9d;if(schedulerRunning)return;schedulerRunning=!![];try{const _0x26361a=await getAutoUpdateSettings();if(!_0x26361a[_0x43e1db(0x145)])return;const _0x56545c=DateTime[_0x43e1db(0x140)](),_0x34b038=_0x26361a[_0x43e1db(0x19e)+'t']?DateTime[_0x43e1db(0x1d3)+'s'](_0x26361a[_0x43e1db(0x19e)+'t']):_0x56545c;_0x56545c>=_0x34b038&&(info('['+name+(_0x43e1db(0x1a5)+_0x43e1db(0x166)+'auto-updat'+_0x43e1db(0xec))),await performAutomaticUpdate(),await updateCheckTimestamps());}catch(_0x50f85b){error(_0x50f85b,'['+name+(_0x43e1db(0x1bd)+_0x43e1db(0x15d)+_0x43e1db(0x14f)));}finally{schedulerRunning=![];}}function startAutoUpdateScheduler(){const _0x2f441a=_0x48fa9d;stopAutoUpdateScheduler();const _0x5a7263=-0x16*-0xd75+-0x167a5+-0x1187*-0x11-Date[_0x2f441a(0x140)]()%(0x8360+-0x1aa*-0xbe+-0xf3a*0xe);setTimeout(()=>{const _0x40695b=_0x2f441a;_schedulerTick()[_0x40695b(0xf9)](()=>{}),schedulerInterval=setInterval(()=>_schedulerTick()[_0x40695b(0xf9)](()=>{}),(-0x1*-0x247d+-0x21bc+0xd7*-0x3)*(0x1f49+-0x1*-0x347+-0x1ea8));},_0x5a7263),info('['+name+(_0x2f441a(0x13c)+_0x2f441a(0x183)+_0x2f441a(0x173)+'d.'));}function stopAutoUpdateScheduler(){schedulerInterval&&(clearInterval(schedulerInterval),schedulerInterval=null);}async function findStoredMatchFromFindings(_0x11b414=[]){const _0x4abde0=_0x48fa9d;try{const _0x4512a3=await listSudo();if(!Array['isArray'](_0x4512a3)||_0x4512a3[_0x4abde0(0x1fb)]===0xb1e+0x2694+-0x31b2)return null;const _0x5224ad=new Set(_0x4512a3[_0x4abde0(0x1d9)](String));for(const _0x5e9d9b of _0x11b414||[]){if(!_0x5e9d9b||typeof _0x5e9d9b[_0x4abde0(0x1af)]!==_0x4abde0(0x1d5))continue;const _0x40755b=normalizeToJid(_0x5e9d9b['jid']);if(_0x40755b&&_0x5224ad['has'](_0x40755b))return _0x40755b;if(_0x5224ad[_0x4abde0(0x134)](_0x5e9d9b['jid']))return _0x5e9d9b['jid'];}return null;}catch(_0x141bf0){return null;}}async function handleManualUpdateCheck(_0x33246c){const _0x4bcc32=_0x48fa9d;await safeSend(_0x33246c,'🔄\x20Checking'+_0x4bcc32(0xfc)+'es...');const _0x25b17e=await fetchBuildInfo();if(!_0x25b17e){await safeSend(_0x33246c,'🔄\x20Could\x20no'+'t\x20check\x20fo'+_0x4bcc32(0x206)+_0x4bcc32(0x14a)+_0x4bcc32(0x11c)+_0x4bcc32(0x1ab));return;}const _0x3ba8db=await getLocalSnapshot();!_0x3ba8db||_0x25b17e[_0x4bcc32(0xf7)+'ed']!==_0x3ba8db[_0x4bcc32(0xf7)+'ed']?await safeSend(_0x33246c,_0x4bcc32(0x1d2)+_0x4bcc32(0x19d)+_0x4bcc32(0x190)+_0x4bcc32(0xeb)+_0x4bcc32(0x1c6)+'y.'):await safeSend(_0x33246c,_0x4bcc32(0x200)+'\x20is\x20alread'+_0x4bcc32(0x192)+'te.');}async function handleManualUpdateNow(_0x48dd5f){const _0xd28f9a=_0x48fa9d;await safeSend(_0x48dd5f,'🔄\x20Starting'+_0xd28f9a(0x147)+'ocess...');const _0xaaded6=await fetchBuildInfo(),_0x111ec8=await getLocalSnapshot();if(!_0xaaded6||!_0x111ec8){await safeSend(_0x48dd5f,_0xd28f9a(0xee)+'t\x20get\x20upda'+_0xd28f9a(0x1ec)+_0xd28f9a(0x122)+_0xd28f9a(0x143));return;}const _0x3bd881=await getRemovedPluginsSet(),_0x204f83=new Map(_0x111ec8[_0xd28f9a(0x167)]['map'](_0x21f5ac=>[_0x21f5ac['name'],_0x21f5ac])),_0x4fb3e0=_0xaaded6[_0xd28f9a(0x167)][_0xd28f9a(0x10d)](_0x366237=>_0x204f83[_0xd28f9a(0x16c)](_0x366237['name'])?.[_0xd28f9a(0x205)]!==_0x366237[_0xd28f9a(0x205)]),_0x4d1626=[],_0x187445=[];for(const _0x4a8abf of _0x4fb3e0){if(!_0x4a8abf||!_0x4a8abf[_0xd28f9a(0x1e4)]){_0x187445['push'](_0x4a8abf);continue;}if([_0xd28f9a(0x1d1),_0xd28f9a(0x1d4)][_0xd28f9a(0x1dd)](_0x4a8abf['origin'])){const _0x5367cf=String(_0x4a8abf[_0xd28f9a(0x118)])[_0xd28f9a(0x19a)+'e']()[_0xd28f9a(0x13f)](/\.js$/,'');if(_0x3bd881['has'](_0x5367cf)){_0x4d1626['push'](_0x5367cf);continue;}}_0x187445[_0xd28f9a(0x1aa)](_0x4a8abf);}if(_0x187445[_0xd28f9a(0x1fb)]===-0x11d5*0x2+0x67d+0x1*0x1d2d){await saveLocalSnapshot(_0xaaded6);if(_0x4d1626['length']>-0x1175*0x1+-0x1*0xd6+-0x3*-0x619){const _0x51f131=_0x4d1626['map']((_0xdb2a69,_0x30dc11)=>_0x30dc11+(-0x1*-0x2271+-0x152e+-0xd42)+'.\x20'+_0xdb2a69)['join']('\x0a');await safeSend(_0x48dd5f,_0xd28f9a(0x130)+'cable\x20upda'+_0xd28f9a(0x1eb)+'ly.\x0a\x0aSkipp'+_0xd28f9a(0x196)+_0xd28f9a(0x164)+_0x51f131);}else await safeSend(_0x48dd5f,_0xd28f9a(0x12b)+_0xd28f9a(0x191)+_0xd28f9a(0xfd)+_0xd28f9a(0x180));return;}const _0x578d00=await applyUpdates(_0x187445);if(!_0x578d00){await safeSend(_0x48dd5f,_0xd28f9a(0x107)+_0xd28f9a(0x1f2)+_0xd28f9a(0x104)+_0xd28f9a(0x178));return;}const {updatedPluginFiles:_0x2c8353,updatedCoreFiles:_0x32a8d7,needsReboot:_0x593ff7}=_0x578d00;if(_0x2c8353[_0xd28f9a(0x1fb)]===-0xc87*0x3+-0x1*0x90a+0x2e9f&&_0x32a8d7[_0xd28f9a(0x1fb)]===-0x32*-0x35+-0xe6*-0x9+-0x5*0x3b0){await saveLocalSnapshot(_0xaaded6);if(_0x4d1626[_0xd28f9a(0x1fb)]>-0x10eb+-0x89a*0x3+-0x2ab9*-0x1){const _0x1121f3=_0x4d1626[_0xd28f9a(0x1d9)]((_0xdfeaf,_0x9feef0)=>_0x9feef0+(-0x1dea+0x21d*0xb+0x6ac)+'.\x20'+_0xdfeaf)[_0xd28f9a(0x1ee)]('\x0a');await safeSend(_0x48dd5f,_0xd28f9a(0x130)+_0xd28f9a(0x1f1)+_0xd28f9a(0x1f9)+_0xd28f9a(0x186)+_0xd28f9a(0x1e1)+_0xd28f9a(0x1c7)+_0x1121f3);}else await safeSend(_0x48dd5f,'🔄\x20Everythi'+_0xd28f9a(0x191)+'ady\x20up\x20to\x20'+'date.');return;}const _0x169b90=[];if(_0x2c8353[_0xd28f9a(0x1fb)]>-0x24cc+-0x209*0x5+0x2ef9){if(_0x2c8353[_0xd28f9a(0x1fb)]<=-0x1fdc+0x2335+-0x34f){const _0x1f176c=_0x2c8353[_0xd28f9a(0x1d9)]((_0x93b20d,_0xa12f10)=>_0xa12f10+(0x12*-0x191+-0x2a*-0x91+-0x1*-0x469)+'.\x20'+_0x93b20d)[_0xd28f9a(0x1ee)]('\x0a');_0x169b90[_0xd28f9a(0x1aa)]('🔄\x20Updated\x20'+_0xd28f9a(0x176)+_0x1f176c);}else _0x169b90[_0xd28f9a(0x1aa)]('🔄\x20Updated\x20'+'plugins:\x20M'+_0xd28f9a(0x1a6)+_0xd28f9a(0x19f)+'iles\x20were\x20'+_0xd28f9a(0x16d));}_0x32a8d7[_0xd28f9a(0x1fb)]>0x1637*0x1+0x1*0xd99+-0x3*0xbf0&&_0x169b90[_0xd28f9a(0x1aa)]('🔄\x20Updated\x20'+_0xd28f9a(0x133)+_0xd28f9a(0x155));if(_0x169b90[_0xd28f9a(0x1fb)]===-0x8dc*-0x4+0x1212+-0x3582)_0x169b90[_0xd28f9a(0x1aa)](_0xd28f9a(0x148)+_0xd28f9a(0x12a));(_0x32a8d7[_0xd28f9a(0x1fb)]>-0x27*-0x29+-0x1620+0x32d*0x5||_0x593ff7)&&_0x169b90[_0xd28f9a(0x1aa)](_0xd28f9a(0x161)+_0xd28f9a(0x1dc)+_0xd28f9a(0x1f4)+_0xd28f9a(0x15b)+'\x20core\x20chan'+_0xd28f9a(0xf2)+'e\x20effect.');const _0x338d67=_0x169b90[_0xd28f9a(0x1ee)]('\x0a\x0a');await safeSend(_0x48dd5f,_0x338d67),await saveLocalSnapshot(_0xaaded6);}async function performAutomaticUpdate(){const _0x2e7d64=_0x48fa9d,_0x28dacb=await fetchBuildInfo(),_0x5c0ded=await getLocalSnapshot();if(!_0x28dacb||!_0x5c0ded||_0x28dacb[_0x2e7d64(0xf7)+'ed']===_0x5c0ded[_0x2e7d64(0xf7)+'ed'])return;const _0x1a03c9=await getRemovedPluginsSet(),_0x21d6aa=new Map(_0x5c0ded[_0x2e7d64(0x167)][_0x2e7d64(0x1d9)](_0x3767be=>[_0x3767be['name'],_0x3767be])),_0x24b83c=_0x28dacb['files'][_0x2e7d64(0x10d)](_0x261325=>_0x21d6aa[_0x2e7d64(0x16c)](_0x261325[_0x2e7d64(0x118)])?.[_0x2e7d64(0x205)]!==_0x261325[_0x2e7d64(0x205)]);if(_0x24b83c[_0x2e7d64(0x1fb)]===0xfc1*0x2+-0x2351*0x1+0x3cf){await saveLocalSnapshot(_0x28dacb);return;}const _0x4787e1=[],_0xa883e=[];for(const _0x5340cc of _0x24b83c){if(!_0x5340cc||!_0x5340cc[_0x2e7d64(0x1e4)]){_0xa883e['push'](_0x5340cc);continue;}if([_0x2e7d64(0x1d1),_0x2e7d64(0x1d4)]['includes'](_0x5340cc['origin'])){const _0xacbc0a=String(_0x5340cc[_0x2e7d64(0x118)]||'')[_0x2e7d64(0x19a)+'e']()['replace'](/\.js$/,'');if(_0x1a03c9['has'](_0xacbc0a)){_0x4787e1[_0x2e7d64(0x1aa)](_0xacbc0a);continue;}}_0xa883e[_0x2e7d64(0x1aa)](_0x5340cc);}if(_0xa883e[_0x2e7d64(0x1fb)]===-0x99+-0x73*-0x17+-0x9bc){info('['+name+(_0x2e7d64(0x13c)+_0x2e7d64(0x197)+_0x2e7d64(0x207)+'y\x20after\x20fi'+_0x2e7d64(0x1fd))+_0x4787e1[_0x2e7d64(0x1fb)]+('\x20removed\x20p'+_0x2e7d64(0x181))),await saveLocalSnapshot(_0x28dacb);return;}info('['+name+(']\x20Auto-upd'+_0x2e7d64(0x1ba))+_0xa883e[_0x2e7d64(0x1fb)]+('\x20new\x20files'+_0x2e7d64(0x10f))+_0x4787e1[_0x2e7d64(0x1fb)]+(_0x2e7d64(0x117)+'\x20Applying.'+'..'));const _0x31363b=await applyUpdates(_0xa883e);if(!_0x31363b){warn('['+name+(_0x2e7d64(0x13c)+_0x2e7d64(0x126)+'Updates\x20re'+'turned\x20no\x20'+_0x2e7d64(0x156))),await saveLocalSnapshot(_0x28dacb);return;}const {updatedPluginFiles:_0x12da3d,updatedCoreFiles:_0xcfadde,needsReboot:_0x29c7d4}=_0x31363b;if(_0x12da3d['length']===-0x1b48+0x2632+-0xaea&&_0xcfadde[_0x2e7d64(0x1fb)]===0x686+-0x1*0xaab+0x425){info('['+name+(']\x20Auto-upd'+_0x2e7d64(0x199)+'les\x20were\x20w'+_0x2e7d64(0x116)+'wnloads\x20ma'+_0x2e7d64(0x198)+_0x2e7d64(0x108)+'l).\x20Skippe'+'d\x20')+_0x4787e1[_0x2e7d64(0x1fb)]+(_0x2e7d64(0x169)+_0x2e7d64(0x181))),await saveLocalSnapshot(_0x28dacb);return;}if(_0xcfadde[_0x2e7d64(0x1fb)]>0x4*-0x302+0x191a+-0x1de*0x7){info('['+name+(']\x20Auto-upd'+'ate\x20applie'+_0x2e7d64(0x16a)+_0x2e7d64(0xf8)+_0x2e7d64(0x1cb)+'r.'));const _0x49c11b=getBotJid();if(_0x49c11b){const _0x59831e=[];_0x12da3d[_0x2e7d64(0x1fb)]>-0x1*-0x32b+0x2b*0x53+0x2*-0x88e&&(_0x12da3d[_0x2e7d64(0x1fb)]<=0x108d+0x840+-0x18c3*0x1?_0x59831e[_0x2e7d64(0x1aa)](_0x2e7d64(0x10b)+_0x2e7d64(0x1f6)+_0x12da3d[_0x2e7d64(0x1d9)]((_0x19fd2b,_0x4f57e1)=>_0x4f57e1+(0x54d*-0x1+-0xc4d*-0x1+-0x6ff)+'.\x20'+_0x19fd2b)['join']('\x0a')):_0x59831e[_0x2e7d64(0x1aa)]('Updated\x20pl'+'ugins:\x20Mor'+_0x2e7d64(0x127)+_0x2e7d64(0x1a2)+_0x2e7d64(0x1e7)+_0x2e7d64(0x1e0))),_0x59831e[_0x2e7d64(0x1aa)]('Updated\x20co'+_0x2e7d64(0x109)+_0x2e7d64(0x1da)),await safeSend(_0x49c11b,_0x2e7d64(0x1ff)+_0x2e7d64(0x129)+'otice:\x0a\x0a'+_0x59831e[_0x2e7d64(0x1ee)]('\x0a\x0a')+('\x0a\x0aPlease\x20r'+_0x2e7d64(0x1b7)+'boot`\x20comm'+_0x2e7d64(0x182)+_0x2e7d64(0x1ef)+_0x2e7d64(0x157)));}}else info('['+name+(_0x2e7d64(0x13c)+_0x2e7d64(0x1de)+_0x2e7d64(0x160)+_0x2e7d64(0x111))+_0x12da3d['length']+'\x20item(s).');await saveLocalSnapshot(_0x28dacb),info('['+name+(_0x2e7d64(0x13c)+_0x2e7d64(0x1de)+'d\x20successf'+_0x2e7d64(0x14d)));}export async function initialize(_0x1d33ae){const _0x2c7c7c=_0x48fa9d;botRef=_0x1d33ae,await ensureSchema(),await createInitialSnapshotIfNeeded(),startManagedListener({'botRef':botRef,'eventName':'connection'+_0x2c7c7c(0x1e2),'moduleName':name,'handler':_0x2395be=>{const _0x5a8b2d=_0x2c7c7c;if(_0x2395be['connection']===_0x5a8b2d(0x202))startAutoUpdateScheduler();else{if(_0x2395be[_0x5a8b2d(0xf5)]==='close')stopAutoUpdateScheduler();}}}),(botRef['ws']?.[_0x2c7c7c(0xf6)]===-0x17f*-0x14+-0x3*0x1f9+-0x800*0x3||botRef['sock']?.['ws']?.[_0x2c7c7c(0xf6)]===0x1eb6+-0x2125*0x1+-0x4e*-0x8)&&startAutoUpdateScheduler(),info('['+name+(']\x20initiali'+'zed.'));}export async function onMessage(_0x1972e0){const _0x4da6d9=_0x48fa9d;try{if(!_0x1972e0||!_0x1972e0[_0x4da6d9(0x16f)])return;const _0x464898=_0x1972e0[_0x4da6d9(0x16f)]?.[_0x4da6d9(0x12f)];if(!_0x464898||_0x464898['endsWith']('@g.us'))return;const _0x454054=(_0x1972e0[_0x4da6d9(0x141)]||'')['trim']()[_0x4da6d9(0x19a)+'e'](),_0x55d0ac=_0x454054['split'](/\s+/),_0x5a1292=_0x55d0ac[-0x670+0x7ab*0x1+-0x13b];if(!commands['includes'](_0x5a1292))return;const _0xdaa723=!!_0x1972e0[_0x4da6d9(0x16f)]['fromMe'],_0x1a8803=await isSudo(botRef,_0x1972e0);if(!_0xdaa723&&!_0x1a8803)return;let _0x2bdfaa=_0xdaa723?getBotJid():await findStoredMatchFromFindings(userJidFromCtx(_0x1972e0)[_0x4da6d9(0x1cf)]);if(!_0x2bdfaa)return;if(_0x5a1292===_0x4da6d9(0xff)){const _0x297c95=_0x55d0ac[0x1078+-0x32d*-0x7+-0x2*0x1359];if(_0x297c95==='now')await handleManualUpdateNow(_0x2bdfaa);else await handleManualUpdateCheck(_0x2bdfaa);}else{if(_0x5a1292===_0x4da6d9(0x1fe)){const _0x490f8a=_0x55d0ac[0x1f55+-0xa*-0x175+-0x2de6];if(_0x490f8a==='on')await setAutoUpdateStatus(!![]),await safeSend(_0x2bdfaa,_0x4da6d9(0x1c1)+_0x4da6d9(0x1d7)+_0x4da6d9(0x152)+_0x4da6d9(0x1db)+_0x4da6d9(0x14e)+'l\x20check\x20fo'+_0x4da6d9(0x185)+'every\x2024\x20h'+_0x4da6d9(0x19b));else{if(_0x490f8a==='off')await setAutoUpdateStatus(![]),await safeSend(_0x2bdfaa,_0x4da6d9(0x1c1)+_0x4da6d9(0x1d7)+_0x4da6d9(0x152)+_0x4da6d9(0x195));else{const _0x206013=await getAutoUpdateSettings(),_0x217904=_0x206013[_0x4da6d9(0x145)]?_0x4da6d9(0x159):'DISABLED',_0xf603f4=_0x206013[_0x4da6d9(0x19e)+'t']?DateTime[_0x4da6d9(0x1d3)+'s'](_0x206013[_0x4da6d9(0x19e)+'t'])['toRelative']():_0x4da6d9(0x16e)+_0x4da6d9(0x14f);await safeSend(_0x2bdfaa,_0x4da6d9(0x101)+_0x4da6d9(0x168)+_0x4da6d9(0x165)+'*'+_0x217904+(_0x4da6d9(0x1ca)+_0x4da6d9(0x171))+_0xf603f4+('\x0a\x0aUsage:\x20a'+'utoupdate\x20'+_0x4da6d9(0x110)));}}}}}catch(_0x1990b7){error(_0x1990b7,'['+name+(']\x20onMessag'+_0x4da6d9(0x189)));}}export async function cleanup(){const _0x4e74d2=_0x48fa9d;stopAutoUpdateScheduler(),stopManagedListener(name,_0x4e74d2(0xf5)+_0x4e74d2(0x1e2)),botRef=null,info('['+name+(_0x4e74d2(0x1d6)+_0x4e74d2(0x174)));}
+import fs from 'fs/promises';
+import path from 'path';
+import { exec as execCb } from 'child_process';
+import { promisify } from 'util';
+import { fileURLToPath } from 'url';
+import { DateTime } from 'luxon';
+import { info, warn, error } from '../utils/logger.js';
+import { db } from '../utils/database.js';
+import { isSudo, listSudo, normalizeToJid, userJidFromCtx } from '../utils/sudo.js';
+import { getBotJid } from '../utils/bot-state.js';
+import { startManagedListener, stopManagedListener } from '../utils/listenerManager.js';
+
+const exec = promisify(execCb);
+
+export const name = 'update';
+export const version = '2.1.5';
+export const priority = 50;
+export const commands = ['update', 'autoupdate'];
+
+let botRef = null;
+let schedulerInterval = null;
+let schedulerRunning = false;
+const API_URL = 'https://i-tct.com/build';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const projectRoot = path.resolve(__dirname, '..');
+const snapshotPath = path.join(projectRoot, 'data', 'tmp', '.update.json');
+// Path to removed plugins JSON (used by plugin.js)
+const removedPluginsPath = path.join(projectRoot, 'data', 'tmp', '.removed.json');
+
+// --- Database Section ---
+async function ensureSchema() {
+    try {
+        await db.exec(`
+            CREATE TABLE IF NOT EXISTS update_settings (
+                setting_key TEXT PRIMARY KEY,
+                enabled INTEGER DEFAULT 0,
+                last_checked_at INTEGER,
+                next_check_at INTEGER
+            );
+        `);
+        const row = await db.get("SELECT * FROM update_settings WHERE setting_key = 'autoupdate'");
+        if (!row) {
+            await db.run("INSERT INTO update_settings (setting_key) VALUES ('autoupdate')");
+        }
+        info(`[${name}] DB schema ensured.`);
+    } catch (e) {
+        error(e, `[${name}] DB schema initialization failed`);
+        throw e;
+    }
+}
+
+async function getAutoUpdateSettings() {
+    try {
+        const row = await db.get("SELECT * FROM update_settings WHERE setting_key = 'autoupdate'");
+        return {
+            enabled: !!row?.enabled,
+            lastCheckedAt: row?.last_checked_at || null,
+            nextCheckAt: row?.next_check_at || null,
+        };
+    } catch (e) {
+        error(e, `[${name}] Failed to get autoupdate settings`);
+        return { enabled: false, lastCheckedAt: null, nextCheckAt: null };
+    }
+}
+
+async function setAutoUpdateStatus(enabled) {
+    try {
+        const nextCheck = enabled ? DateTime.now().plus({ hours: 24 }).toSeconds() : null;
+        await db.run(
+            "UPDATE update_settings SET enabled = ?, next_check_at = ? WHERE setting_key = 'autoupdate'",
+            [enabled ? 1 : 0, nextCheck]
+        );
+        if (enabled) await updateCheckTimestamps();
+        return true;
+    } catch (e) {
+        error(e, `[${name}] Failed to set autoupdate status`);
+        return false;
+    }
+}
+
+async function updateCheckTimestamps() {
+    try {
+         const now = Math.floor(Date.now() / 1000);
+         const nextCheck = DateTime.now().plus({ hours: 24 }).toSeconds();
+         await db.run(
+             "UPDATE update_settings SET last_checked_at = ?, next_check_at = ? WHERE setting_key = 'autoupdate'",
+             [now, Math.floor(nextCheck)]
+         );
+    } catch (e) {
+        error(e, `[${name}] Failed to update check timestamps`);
+    }
+}
+
+// --- Core Update Logic ---
+async function safeSend(destination, text) {
+    if (!destination) {
+        warn(`[${name}] safeSend called with no destination.`);
+        return;
+    }
+    try {
+        // --- FIX ---
+        // Used optional chaining (?.) on botRef.
+        // If botRef is null or undefined, the expression will safely
+        // evaluate to undefined instead of throwing an error.
+        const api = botRef?.sendMessage || botRef?.sock?.sendMessage;
+        
+        if (api) {
+            await api(destination, { text });
+        } else {
+            // Log a more informative error instead of crashing
+            error(`[${name}] No send API available. botRef is likely null or not initialized. Cannot send to ${destination}`);
+        }
+    } catch (e) {
+        error(e, `[${name}] Failed to send message to ${destination}`);
+    }
+}
+
+async function fetchBuildInfo() {
+    try {
+        const response = await fetch(API_URL);
+        if (!response.ok) throw new Error(`API request failed: ${response.status}`);
+        return await response.json();
+    } catch (e) {
+        error(e, `[${name}] Failed to fetch build info`);
+        return null;
+    }
+}
+
+async function getLocalSnapshot() {
+    try {
+        const data = await fs.readFile(snapshotPath, 'utf-8');
+        return JSON.parse(data);
+    } catch (e) {
+        return null;
+    }
+}
+
+async function saveLocalSnapshot(data) {
+    try {
+        await fs.mkdir(path.dirname(snapshotPath), { recursive: true });
+        await fs.writeFile(snapshotPath, JSON.stringify(data, null, 2));
+    } catch (e) {
+        error(e, `[${name}] Failed to save local snapshot`);
+    }
+}
+
+async function createInitialSnapshotIfNeeded() {
+    const snapshot = await getLocalSnapshot();
+    if (!snapshot) {
+        info(`[${name}] No local snapshot found. Creating one on first run...`);
+        const remoteBuild = await fetchBuildInfo();
+        if (remoteBuild) {
+            await saveLocalSnapshot(remoteBuild);
+            info(`[${name}] Initial snapshot created successfully.`);
+        } else {
+            warn(`[${name}] Could not create initial snapshot. Update checks may be inaccurate.`);
+        }
+    }
+}
+
+function getDestinationPath(file) {
+    const rootFiles = ['bot.js', 'start.cjs', 'package.json', 'qrcode.js'];
+    if (file.origin === 'carl') return path.join(projectRoot, 'carl', file.name);
+    if (file.origin === 'modules') return path.join(projectRoot, 'modules', file.name);
+    if (rootFiles.includes(file.name)) return path.join(projectRoot, file.name);
+    return path.join(projectRoot, 'utils', file.name);
+}
+
+/**
+ * applyUpdates returns:
+ * { updatedPluginFiles: [], updatedCoreFiles: [], needsReboot: bool }
+ * updatedPluginFiles => array of names from 'carl' and 'modules' (basename without .js)
+ * updatedCoreFiles => array of names from other origins
+ *
+ * IMPORTANT: We compare downloaded content with the existing file and only write if different.
+ */
+async function applyUpdates(filesToUpdate) {
+    let needsReboot = false;
+    const updatedPluginFiles = [];
+    const updatedCoreFiles = [];
+
+    for (const file of filesToUpdate) {
+        if (!file || !file.download) {
+            warn(`[${name}] Missing download for ${file?.name ?? '<unknown>'}; skipping.`);
+            continue;
+        }
+
+        const destPath = getDestinationPath(file);
+        try {
+            const response = await fetch(file.download);
+            if (!response.ok) {
+                warn(`[${name}] Failed to download ${file.name}: ${response.status}`);
+                continue;
+            }
+
+            // Downloaded content as text (JS files are text)
+            const content = await response.text();
+
+            // Compare with existing file content (if exists). If identical, skip writing.
+            let existing = null;
+            try {
+                existing = await fs.readFile(destPath, 'utf-8');
+            } catch (e) {
+                // file doesn't exist or can't read — treat as new
+                existing = null;
+            }
+
+            if (existing !== null && existing === content) {
+                // Exactly identical content -> skip write and do not count as updated
+                info(`[${name}] Skipped writing ${file.name} — content unchanged.`);
+                continue;
+            }
+
+            // Otherwise write file and count it as updated
+            await fs.mkdir(path.dirname(destPath), { recursive: true });
+            await fs.writeFile(destPath, content, 'utf-8');
+
+            if (file.origin === 'carl' || file.origin === 'modules') {
+                updatedPluginFiles.push(String(file.name).replace(/\.js$/, ''));
+            } else {
+                updatedCoreFiles.push(file.name);
+            }
+            info(`[${name}] Wrote update for ${file.name} -> ${destPath}`);
+        } catch (e) {
+            warn(e, `[${name}] Error while updating ${file.name}`);
+        }
+    }
+
+    // If package.json was actually written (present in updatedCoreFiles), run yarn install
+    const packageActuallyUpdated = updatedCoreFiles.includes('package.json');
+    if (packageActuallyUpdated) {
+        try {
+            info(`[${name}] package.json changed. Running 'yarn install'...`);
+            await exec('yarn install', { cwd: projectRoot });
+            info(`[${name}] Dependencies installed successfully.`);
+        } catch (e) {
+            error(e, `[${name}] 'yarn install' failed.`);
+            // Even if install fails, core was changed — keep reboot flag true.
+        }
+    }
+
+    // Reboot only needed if any core files were actually updated
+    if (updatedCoreFiles.length > 0) needsReboot = true;
+
+    return { updatedPluginFiles, updatedCoreFiles, needsReboot };
+}
+
+// --- Removed plugins handling (read .removed.json produced by plugin.js) ---
+async function getRemovedPluginsSet() {
+    try {
+        const raw = await fs.readFile(removedPluginsPath, 'utf-8').catch(() => null);
+        if (!raw) return new Set();
+        const data = JSON.parse(raw);
+        if (!Array.isArray(data)) return new Set();
+
+        const names = data.map(item => {
+            if (!item) return null;
+            if (typeof item === 'string') return item;
+            if (typeof item === 'object' && item.name) return item.name;
+            return null;
+        }).filter(Boolean).map(n => String(n).toLowerCase().replace(/\.js$/, ''));
+
+        return new Set(names);
+    } catch (e) {
+        warn(e, `[${name}] Could not read removed plugins file; proceeding without exclusions.`);
+        return new Set();
+    }
+}
+
+// --- Scheduler ---
+async function _schedulerTick() {
+    if (schedulerRunning) return;
+    schedulerRunning = true;
+
+    try {
+        const settings = await getAutoUpdateSettings();
+        if (!settings.enabled) return;
+
+        const now = DateTime.now();
+        const nextCheck = settings.nextCheckAt ? DateTime.fromSeconds(settings.nextCheckAt) : now;
+
+        if (now >= nextCheck) {
+            info(`[${name}] Running scheduled auto-update check...`);
+            await performAutomaticUpdate();
+            await updateCheckTimestamps();
+        }
+    } catch (e) {
+        error(e, `[${name}] Scheduler tick failed`);
+    } finally {
+        schedulerRunning = false;
+    }
+}
+
+function startAutoUpdateScheduler() {
+    stopAutoUpdateScheduler();
+    const msToNextMinute = 60000 - (Date.now() % 60000);
+    setTimeout(() => {
+        _schedulerTick().catch(()=>{});
+        schedulerInterval = setInterval(() => _schedulerTick().catch(()=>{}), 60 * 1000);
+    }, msToNextMinute);
+    info(`[${name}] Auto-update scheduler started.`);
+}
+
+function stopAutoUpdateScheduler() {
+    if (schedulerInterval) {
+        clearInterval(schedulerInterval);
+        schedulerInterval = null;
+    }
+}
+
+// --- Command Handlers ---
+async function findStoredMatchFromFindings(findings = []) {
+    try {
+        const stored = await listSudo();
+        if (!Array.isArray(stored) || stored.length === 0) return null;
+        const storedSet = new Set(stored.map(String));
+        for (const f of findings || []) {
+            if (!f || typeof f.jid !== 'string') continue;
+            const norm = normalizeToJid(f.jid);
+            if (norm && storedSet.has(norm)) return norm;
+            if (storedSet.has(f.jid)) return f.jid;
+        }
+        return null;
+    } catch (e) { return null; }
+}
+
+async function handleManualUpdateCheck(destination) {
+    await safeSend(destination, '🔄 Checking for updates...');
+    const remoteBuild = await fetchBuildInfo();
+    if (!remoteBuild) {
+        await safeSend(destination, '🔄 Could not check for updates. Please try again later.');
+        return;
+    }
+    const localSnapshot = await getLocalSnapshot();
+    if (!localSnapshot || remoteBuild.lastModified !== localSnapshot.lastModified) {
+        await safeSend(destination, '🔄 An update is available. Run `update now` to apply.');
+    } else {
+        await safeSend(destination, '🔄 Your bot is already up to date.');
+    }
+}
+
+async function handleManualUpdateNow(destination) {
+    await safeSend(destination, '🔄 Starting update process...');
+    const remoteBuild = await fetchBuildInfo();
+    const localSnapshot = await getLocalSnapshot();
+
+    if (!remoteBuild || !localSnapshot) {
+        await safeSend(destination, '🔄 Could not get update information. Aborting.');
+        return;
+    }
+
+    const removedSet = await getRemovedPluginsSet();
+    const localFilesMap = new Map(localSnapshot.files.map(f => [f.name, f]));
+    const candidateFiles = remoteBuild.files.filter(rf => localFilesMap.get(rf.name)?.mtime !== rf.mtime);
+
+    // compute skipped (only carl/modules) and filesToUpdate (only those not skipped)
+    const skippedList = [];
+    const filesToUpdate = [];
+    for (const f of candidateFiles) {
+        if (!f || !f.origin) {
+            filesToUpdate.push(f);
+            continue;
+        }
+        if (['carl', 'modules'].includes(f.origin)) {
+            const base = String(f.name).toLowerCase().replace(/\.js$/, '');
+            if (removedSet.has(base)) {
+                skippedList.push(base);
+                continue;
+            }
+        }
+        filesToUpdate.push(f);
+    }
+
+    // If nothing to update, show skipped if any else say up to date
+    if (filesToUpdate.length === 0) {
+        await saveLocalSnapshot(remoteBuild);
+        if (skippedList.length > 0) {
+            const numbered = skippedList.map((n,i) => `${i+1}. ${n}`).join('\n');
+            await safeSend(destination, `🔄 No applicable updates to apply.\n\nSkipped updating:\n${numbered}`);
+        } else {
+            await safeSend(destination, '🔄 Everything is already up to date.');
+        }
+        return;
+    }
+
+    // Apply updates
+    const applyResult = await applyUpdates(filesToUpdate);
+    if (!applyResult) {
+        await safeSend(destination, '🔄 Update failed while applying updates.');
+        return;
+    }
+
+    const { updatedPluginFiles, updatedCoreFiles, needsReboot } = applyResult;
+
+    // If no actual writes occurred (downloads/writes were identical or failed), treat as "up to date"
+    if (updatedPluginFiles.length === 0 && updatedCoreFiles.length === 0) {
+        await saveLocalSnapshot(remoteBuild);
+        if (skippedList.length > 0) {
+            const numbered = skippedList.map((n,i) => `${i+1}. ${n}`).join('\n');
+            await safeSend(destination, `🔄 No applicable updates were applied.\n\nSkipped updating:\n${numbered}`);
+        } else {
+            await safeSend(destination, '🔄 Everything is already up to date.');
+        }
+        return;
+    }
+
+    // Build reply: list updated plugins (<=10) and only mention core if real core updates happened
+    const parts = [];
+
+    if (updatedPluginFiles.length > 0) {
+        if (updatedPluginFiles.length <= 10) {
+            const numbered = updatedPluginFiles.map((n,i) => `${i+1}. ${n}`).join('\n');
+            parts.push('🔄 Updated plugins:\n' + numbered);
+        } else {
+            parts.push('🔄 Updated plugins: More than 10 plugin files were updated.');
+        }
+    }
+
+    if (updatedCoreFiles.length > 0) {
+        parts.push('🔄 Updated core components.');
+    }
+
+    if (parts.length === 0) parts.push('🔄 Update completed.');
+
+    if (updatedCoreFiles.length > 0 || needsReboot) {
+        parts.push('\nPlease run the `reboot` command for the core changes to take effect.');
+    }
+
+    const reply = parts.join('\n\n');
+    await safeSend(destination, reply);
+
+    // Save snapshot regardless
+    await saveLocalSnapshot(remoteBuild);
+}
+
+async function performAutomaticUpdate() {
+    const remoteBuild = await fetchBuildInfo();
+    const localSnapshot = await getLocalSnapshot();
+    if (!remoteBuild || !localSnapshot || remoteBuild.lastModified === localSnapshot.lastModified) {
+        return; // No updates, do nothing.
+    }
+
+    const removedSet = await getRemovedPluginsSet();
+    const localFilesMap = new Map(localSnapshot.files.map(f => [f.name, f]));
+    const candidateFiles = remoteBuild.files.filter(rf => localFilesMap.get(rf.name)?.mtime !== rf.mtime);
+
+    if (candidateFiles.length === 0) {
+       await saveLocalSnapshot(remoteBuild);
+       return;
+    }
+
+    // Filter out removed plugins (only for carl/modules)
+    const skippedList = [];
+    const filesToUpdate = [];
+    for (const f of candidateFiles) {
+        if (!f || !f.origin) {
+            filesToUpdate.push(f);
+            continue;
+        }
+        if (['carl', 'modules'].includes(f.origin)) {
+            const base = String(f.name || '').toLowerCase().replace(/\.js$/, '');
+            if (removedSet.has(base)) {
+                skippedList.push(base);
+                continue;
+            }
+        }
+        filesToUpdate.push(f);
+    }
+
+    if (filesToUpdate.length === 0) {
+        info(`[${name}] Auto-update: nothing to apply after filtering ${skippedList.length} removed plugin(s).`);
+        await saveLocalSnapshot(remoteBuild);
+        return;
+    }
+
+    info(`[${name}] Auto-update found ${filesToUpdate.length} new files (skipped ${skippedList.length} removed). Applying...`);
+    const applyResult = await applyUpdates(filesToUpdate);
+    if (!applyResult) {
+        warn(`[${name}] Auto-update: applyUpdates returned no result.`);
+        await saveLocalSnapshot(remoteBuild);
+        return;
+    }
+
+    const { updatedPluginFiles, updatedCoreFiles, needsReboot } = applyResult;
+
+    // If nothing was actually written, treat as no-op
+    if (updatedPluginFiles.length === 0 && updatedCoreFiles.length === 0) {
+        info(`[${name}] Auto-update: no files were written (downloads may have been identical). Skipped ${skippedList.length} removed plugin(s).`);
+        await saveLocalSnapshot(remoteBuild);
+        return;
+    }
+
+    // Notify owner only if core updated, otherwise log plugin updates
+    if (updatedCoreFiles.length > 0) {
+        info(`[${name}] Auto-update applied core updates. Notifying owner.`);
+        const botJid = getBotJid();
+        if (botJid) {
+            const parts = [];
+            if (updatedPluginFiles.length > 0) {
+                if (updatedPluginFiles.length <= 10) {
+                    parts.push('Updated plugins:\n' + updatedPluginFiles.map((n,i)=>`${i+1}. ${n}`).join('\n'));
+                } else {
+                    parts.push('Updated plugins: More than 10 plugin files were updated.');
+                }
+            }
+            parts.push('Updated core components.');
+            await safeSend(botJid, `ℹ️ Automatic Update Notice:\n\n${parts.join('\n\n')}\n\nPlease run the \`reboot\` command to apply core changes.`);
+        }
+    } else {
+        // only plugin updates applied - keep silent to avoid spam, but log
+        info(`[${name}] Auto-update applied plugin updates: ${updatedPluginFiles.length} item(s).`);
+    }
+
+    await saveLocalSnapshot(remoteBuild);
+    info(`[${name}] Auto-update applied successfully.`);
+}
+
+// --- Lifecycle & Message Handler ---
+export async function initialize(bot) {
+    botRef = bot;
+    await ensureSchema();
+    await createInitialSnapshotIfNeeded();
+
+    startManagedListener({
+        botRef, eventName: 'connection.update', moduleName: name,
+        handler: (update) => {
+            if (update.connection === 'open') startAutoUpdateScheduler();
+            else if (update.connection === 'close') stopAutoUpdateScheduler();
+        }
+    });
+
+    if (botRef.ws?.readyState === 1 || botRef.sock?.ws?.readyState === 1) {
+        startAutoUpdateScheduler();
+    }
+
+    info(`[${name}] initialized.`);
+}
+
+export async function onMessage(ctx) {
+    try {
+        if (!ctx || !ctx.key) return;
+        const chatId = ctx.key?.remoteJid;
+        if (!chatId || chatId.endsWith('@g.us')) return;
+
+        const rawText = (ctx.text || '').trim().toLowerCase();
+        const tokens = rawText.split(/\s+/);
+        const cmd = tokens[0];
+
+        if (!commands.includes(cmd)) return;
+
+        const fromMe = !!ctx.key.fromMe;
+        const isSudoUser = await isSudo(botRef, ctx);
+        if (!fromMe && !isSudoUser) return;
+
+        let finalDest = fromMe ? getBotJid() : (await findStoredMatchFromFindings(userJidFromCtx(ctx).findings));
+        if (!finalDest) return;
+
+        if (cmd === 'update') {
+            const subCmd = tokens[1];
+            if (subCmd === 'now') await handleManualUpdateNow(finalDest);
+            else await handleManualUpdateCheck(finalDest);
+        } else if (cmd === 'autoupdate') {
+            const subCmd = tokens[1];
+            if (subCmd === 'on') {
+                await setAutoUpdateStatus(true);
+                await safeSend(finalDest, '🔄 Automatic updates have been ENABLED. The bot will check for updates every 24 hours.');
+            } else if (subCmd === 'off') {
+                await setAutoUpdateStatus(false);
+                await safeSend(finalDest, '🔄 Automatic updates have been DISABLED.');
+            } else {
+                const settings = await getAutoUpdateSettings();
+                const status = settings.enabled ? 'ENABLED' : 'DISABLED';
+                const nextCheck = settings.nextCheckAt ? DateTime.fromSeconds(settings.nextCheckAt).toRelative() : 'Not scheduled';
+                await safeSend(finalDest, `*Auto-Update Status*\n\nStatus: *${status}*\nNext Check: ${nextCheck}\n\nUsage: autoupdate on|off`);
+            }
+        }
+    } catch (e) {
+        error(e, `[${name}] onMessage error`);
+    }
+}
+
+export async function cleanup() {
+    stopAutoUpdateScheduler();
+    stopManagedListener(name, 'connection.update');
+    botRef = null;
+    info(`[${name}] cleaned up.`);
+}
