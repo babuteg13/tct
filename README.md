@@ -106,9 +106,9 @@ SESSION_ID=tct_xxx
 see more examples as env.example
 ```
 
-open config.yml  and edit
+### open config.yml  and edit
 
-example config.yml  
+### example config.yml  
 
 ```bash
 TIMEZONE: Africa/Nairobi
