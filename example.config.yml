@@ -531,10 +531,7 @@ LOCKS:
 # MOVIE MODULE: newsletter / movie images
 MOVIE:
   NEWSLETTER_IMAGES:
-    - "https://files.thebookiebasher.win/media/tct2.jpg"
-    - "https://files.thebookiebasher.win/media/tct5.jpg"
-    - "https://files.thebookiebasher.win/media/movie.jpg"
-
+    - "https://i-tct.com/media/tctlogo2.png"
 
 # SCHEDULER
 # SCHED_CHECK_INTERVAL_MS: scheduling poll interval (ms)
