@@ -1,1 +1,440 @@
-const _0x1d2990=_0x28e2;(function(_0x48ae66,_0x58d51b){const _0x318fd7=_0x28e2,_0x46251f=_0x48ae66();while(!![]){try{const _0x2a130a=-parseInt(_0x318fd7(0x1ed))/(0x306*0x1+-0x1b2+-0x71*0x3)*(parseInt(_0x318fd7(0x1f5))/(-0x132*-0x2+-0x2*0x128f+0x22bc))+parseInt(_0x318fd7(0x14b))/(-0x1*-0x17ee+-0x1b1+-0x163a)*(-parseInt(_0x318fd7(0x1c8))/(-0x446*-0x6+-0x250c+0x5b6*0x2))+parseInt(_0x318fd7(0x1b7))/(0x1*0x641+-0x10ba*-0x2+-0xfe*0x28)*(-parseInt(_0x318fd7(0x1df))/(-0x999+0x19eb+-0x104c))+-parseInt(_0x318fd7(0x1ab))/(0xa64+-0x237*-0x1+-0xc94)*(parseInt(_0x318fd7(0x1f0))/(-0x347+-0x35*0x3f+-0x1a*-0xa1))+parseInt(_0x318fd7(0x17f))/(-0x1*0x1fe9+0x1aa6+0x54c)+parseInt(_0x318fd7(0x1bd))/(-0x8c9*-0x1+-0x6c6*-0x3+0x427*-0x7)*(parseInt(_0x318fd7(0x1ec))/(-0x37d*-0x9+0xe2c*-0x2+-0x5*0x9a))+parseInt(_0x318fd7(0x1a2))/(-0x1*0x1b23+0x258d+-0x52f*0x2);if(_0x2a130a===_0x58d51b)break;else _0x46251f['push'](_0x46251f['shift']());}catch(_0x1d0a72){_0x46251f['push'](_0x46251f['shift']());}}}(_0x28ab,0x7f293+-0x83e12+-0x99841*-0x1));import _0x473764 from'dotenv';import _0x157799 from'fs';import _0x7a0cd3 from'path';import{fileURLToPath}from'url';import _0x37bf01 from'chokidar';import{z}from'zod';import _0x3817e5 from'yaml';import{info,error,warn}from'./logger.js';function findProjectRoot(){const _0x249de7=_0x28e2;let _0x4e7fec=_0x7a0cd3[_0x249de7(0x188)](fileURLToPath(import.meta[_0x249de7(0x1d0)]));while(!![]){if(_0x157799['existsSync'](_0x7a0cd3[_0x249de7(0x18e)](_0x4e7fec,_0x249de7(0x1fc)+'on')))return _0x4e7fec;const _0x33a900=_0x7a0cd3[_0x249de7(0x188)](_0x4e7fec);if(_0x33a900===_0x4e7fec)throw new Error('Could\x20not\x20'+_0x249de7(0x19c)+'ct\x20root\x20co'+'ntaining\x20a'+_0x249de7(0x1e1)+'son\x20file.');_0x4e7fec=_0x33a900;}}export const PROJECT_ROOT=findProjectRoot();function _0x28ab(){const _0x37f2e7=['SAGE⚠️*\x0a\x0a*U','push','\x20snapshot.','\x20threw\x20an\x20','change','r\x20future\x20c','modules','readFileSy','Breaking\x20g','ings}','watch','error:','silent','developmen','warn','Posting\x20st','default','mkdirSync','null','un:','casts.','Africa/Nai','cwd','includes','max_warns}','kiebasher.','Configurat','Config\x20key','Bookielogs','Using\x20conf','movie.jpg','as\x20a\x20new\x20r','SER:*\x20{use','debug','data/db','sfully.','SESSION_ID','length','file\x20found','dev.log','ADMIN_TOKE','boolean','info','utf8','e\x20changed.','10936251uRpklk','atus\x20broad','_CLOUD_NAM','.dlq','is\x20not\x20all','10M','.\x20Defaulti','\x20{reason}','ng\x20without','dirname','config.yml','links\x20are\x20','prototype','.cjs','nfiguratio','join','max','A\x20snapshot','carl','🔗\x20{user},\x20','⚠️\x20{user},\x20','resolve','hot-reload','ous\x20config','OPENWEATHE','ing.\x20Remai','_API_KEY','DATABASE_U','rom\x20','find\x20proje','config.jso','config','forEach','tct2.jpg','stringify','8184024Wrmnti','owed.','ariables\x20f','ng\x20config\x20','G\x20WARNINGS','les.theboo','production','\x0a*REMAININ','lwskky','259pQzfZe','call','number','ync','exit','_API_SECRE','stop\x20spamm','keys','robi','\x0a*REASON:*','ning\x20warni','min','295rogRZG','Initial\x20co','maining\x20wa','save\x20confi','parse','*⚠️WARN\x20MES','130PcdEFm','\x20Treating\x20','not\x20allowe','FOOTBALL_A','media','Failed\x20to\x20','OMDB_API_K','\x20it.','https://fi','ig\x20file\x20at','map','73488XrzAfP','.env','at\x20','.last.json','19.1.0','string','tuple','.env\x20file\x20','url','roup\x20rules','ing_warns}','s\x20changed:','tct5.jpg','ngs:\x20{warn','\x22***\x22',':*\x20{remain','enum','union',',\x20continui','random','SENTRY_DSN','optional','RNINGS:*\x20{','89862jkmJyf','bot.db','\x20package.j','No\x20config\x20','data','.yaml','@@myBotHoo','extname','R_API_KEY','object','env','existsSync','function','729069GuUoYQ','323VjvOWp','rnings}','daily','136736CPxUTl','.mjs','.auth','roundrobin','created\x20fo','3466psdYQt','fatal','ted\x20succes','data/statu','CLOUDINARY','PI_KEY','writeFileS','package.js','.yml','array','***','ion\x20valida','12eHIfZV','win/media/','trace','r}\x0a*MAX\x20WA','Error\x20duri','g\x20snapshot','errors'];_0x28ab=function(){return _0x37f2e7;};return _0x28ab();}const envPath=_0x7a0cd3['resolve'](PROJECT_ROOT,_0x1d2990(0x1c9));_0x157799[_0x1d2990(0x1ea)](envPath)?(_0x473764[_0x1d2990(0x19e)]({'path':envPath}),info('Loaded\x20env'+'ironment\x20v'+_0x1d2990(0x1a4)+_0x1d2990(0x19b)+envPath)):info(_0x1d2990(0x1cf)+'not\x20found\x20'+_0x1d2990(0x1ca)+envPath+(_0x1d2990(0x1da)+_0x1d2990(0x187)+_0x1d2990(0x1c4)));export function findConfigFile(){const _0x79bd40=_0x1d2990,_0x428306=[_0x79bd40(0x189),'config.yam'+'l',_0x79bd40(0x19d)+'n'];for(const _0x2d111d of _0x428306){const _0x11afae=_0x7a0cd3[_0x79bd40(0x194)](PROJECT_ROOT,_0x2d111d);if(_0x157799[_0x79bd40(0x1ea)](_0x11afae))return info(_0x79bd40(0x16f)+'ig\x20file:\x20'+_0x11afae),_0x11afae;}const _0x56fcb2=_0x7a0cd3['resolve'](PROJECT_ROOT,'config.yml');return info(_0x79bd40(0x1e2)+_0x79bd40(0x178)+_0x79bd40(0x185)+'ng\x20to:\x20'+_0x56fcb2),_0x56fcb2;}const CONFIG_PATH=findConfigFile(),LAST_CONFIG_PATH=_0x7a0cd3[_0x1d2990(0x194)](PROJECT_ROOT,_0x1d2990(0x1e3),_0x1d2990(0x19e),_0x1d2990(0x1cb)),SENSITIVE_KEYS=[_0x1d2990(0x17a)+'N',_0x1d2990(0x176),_0x1d2990(0x1dc),_0x1d2990(0x19a)+'RL',_0x1d2990(0x1c0)+_0x1d2990(0x1fa),_0x1d2990(0x1f9)+_0x1d2990(0x199),_0x1d2990(0x1f9)+'_API_SECRE'+'T',_0x1d2990(0x1c3)+'EY',_0x1d2990(0x197)+_0x1d2990(0x1e7)],watcher=_0x37bf01[_0x1d2990(0x15c)](CONFIG_PATH,{'persistent':!![],'ignoreInitial':!![]}),reloadListeners=[];export function hotReloadConfig(_0x3da715){const _0x521b44=_0x1d2990;typeof _0x3da715===_0x521b44(0x1eb)&&reloadListeners[_0x521b44(0x153)](_0x3da715);}const ConfigSchema=z['object']({'NODE_ENV':z[_0x1d2990(0x1d8)]([_0x1d2990(0x15f)+'t',_0x1d2990(0x1a8)])['default']('developmen'+'t'),'TIMEZONE':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x167)+_0x1d2990(0x1b3)),'LOG_LEVEL':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)]('info'),'LOG_DIR':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x16e)),'PROD_LOG_FILENAME':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)]('prod.log'),'DEV_LOG_FILENAME':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x179)),'LOG_ROTATION_FREQUENCY':z[_0x1d2990(0x1cd)]()['default'](_0x1d2990(0x1ef)),'LOG_ROTATION_SIZE':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x184)),'LOG_QUERIES':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](![]),'SENTRY_DSN':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1dd)](),'SENTRY_TRACES_SAMPLE_RATE':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1bdd+0x3f1*-0x5+0x2f92)[_0x1d2990(0x18f)](-0x1feb+0x71+0x1f7b)[_0x1d2990(0x162)](-0x1f*0xd3+-0xb2a+-0xbc*-0x32),'BOOKIES_DIR_NAME':z['string']()[_0x1d2990(0x162)]('carl'),'MODULES_DIRECTORY':z[_0x1d2990(0x1cd)]()['default'](_0x1d2990(0x158)),'CARL_DIRECTORY':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x191)),'MODULE_CONCURRENCY_LIMIT':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x153e+0xd46*0x1+0xd*0x9d)[_0x1d2990(0x162)](0x105b+0x1827+0x819*-0x5),'ALLOWED_MODULE_EXTENSIONS':z['array'](z[_0x1d2990(0x1cd)]())[_0x1d2990(0x162)](['.js',_0x1d2990(0x1f1),_0x1d2990(0x18c)]),'MAX_MODULE_FILE_SIZE_WARN_BYTES':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x85*-0x2f+0xfe6+-0x2851)['default'](0x1fb4b5*0x1+-0x1fb04b+-0x11de*-0xe5),'MAX_HANDLERS_WARNING_THRESHOLD':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x2084+-0x17bf+-0x22a*-0x1a)['default'](-0xa4f+-0xc5*0x2b+0x2bca),'MODULE_RELOAD_DEBOUNCE_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0xfa9+0x7f*0x1+-0x205*0x8)[_0x1d2990(0x162)](0x5*0x305+-0x16c8+0x1*0x8db),'HEALTH_CHECK_INTERVAL_MS':z[_0x1d2990(0x1ad)]()['min'](-0x4*-0x107+-0xba9+-0x78d*-0x1)[_0x1d2990(0x162)](0x754d+-0x8ba3*0x1+0x100b6),'HIGH_MEMORY_USAGE_WARN_MB':z[_0x1d2990(0x1ad)]()['min'](0x6c5*0x4+-0x169*0x11+-0x109*0x3)[_0x1d2990(0x162)](-0x12df*0x2+0x2263+0x3bf),'CRITICAL_MEMORY_USAGE_MB':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x197+0xb35+0x4cf*-0x2)[_0x1d2990(0x162)](-0x2b*0xbf+0x3*-0x37d+-0x3*-0xe50),'KILL_ON_HIGH_MEMORY':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](![]),'MODULE_STATS_INTERVAL_MS':z['number']()[_0x1d2990(0x1b6)](0x23f3+-0x9*-0x2db+-0x2*0x1ed3)['default'](0x92644+-0x219f8+0x7e7c*-0x5),'BOT_HOOKS_KEY_SYMBOL':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x1e5)+'ksAttached'),'DB_PATH':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x174)),'DB_NAME':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x1e0)),'DB_BATCH_SIZE':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1588+0x1*0x2113+-0x369a)['default'](0x1497+0x3c1+-0x17f4),'DB_FLUSH_INTERVAL':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x3*-0x873+0x246c+0x5*-0x16f)[_0x1d2990(0x162)](-0x1c80+-0x565*-0x1+0x2aa3*0x1),'DB_CACHE_MAX_BYTES':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0xb*0x38c+-0x1*0x53e+-0x21c6)[_0x1d2990(0x162)]((-0xd9c+-0xdcb+0x5*0x5df)*(-0x1*0x1d99+0x837+0x1962)*(-0x24ac*0x1+0x6d7*0x2+-0x566*-0x5)),'DATABASE_URL':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1d0)]()[_0x1d2990(0x1dd)](),'ATTACH_WATCHER_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x31f*0x9+-0x1c7e+-0x1*-0x25b)['default'](-0x183c+-0x114*-0x5+0xa3*0x30),'SOCK_MONITOR_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x7bc+-0x1e*-0xd1+-0x5*0x2f6)[_0x1d2990(0x162)](0x7e7+-0x880+0x675),'BAILEYS_PINO_LEVEL':z[_0x1d2990(0x1d8)]([_0x1d2990(0x14d),_0x1d2990(0x173),_0x1d2990(0x17c),_0x1d2990(0x160),'error',_0x1d2990(0x1f6),_0x1d2990(0x15e)])[_0x1d2990(0x162)]('error'),'CACHE_TTL_MS':z['number']()[_0x1d2990(0x1b6)](0xb*-0x111+-0x39d*-0x1+0x81e)[_0x1d2990(0x162)]((-0x1d71+-0x1e50+0x3bfd)*(0x1*-0x4ad+0x1*0xca0+-0x40b)),'CACHE_MAX_SIZE_BYTES':z[_0x1d2990(0x1ad)]()['min'](0x19ef+0x119c+-0x1*0x2b8b)[_0x1d2990(0x162)]((-0x1515+0x1aa5+0x1d4*-0x3)*(-0x19c9+0x1704+0x6c5)*(0xba9*-0x1+-0x20c8+0x3071)),'MEMORY_STORE_MAX_BYTES':z[_0x1d2990(0x1ad)]()['min'](-0x69d*-0x3+0x3*0x2d3+-0x1c50)[_0x1d2990(0x162)]((0x2175+0x36d*-0x1+0x4ae*-0x6)*(-0x577+-0x2676+0x2fed)*(0x3*-0xbdd+-0x1a2*-0x5+-0x1*-0x1f6d)),'AUTH_STATE_DIR':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x1f2)),'SESSION_ID':z['string']()[_0x1d2990(0x1dd)](),'ADMIN_TOKEN':z[_0x1d2990(0x1cd)]()['optional'](),'BAILEYS_BROWSER':z[_0x1d2990(0x1ce)]([z[_0x1d2990(0x1cd)](),z['string'](),z[_0x1d2990(0x1cd)]()])[_0x1d2990(0x162)]([_0x1d2990(0x1aa),'Chrome',_0x1d2990(0x1cc)]),'AUTH_WAL_MAX_FILE_SIZE_KB':z['number']()[_0x1d2990(0x1b6)](-0x2b0*0x3+-0x296*0xc+0x2719)[_0x1d2990(0x162)](0xe*0x29b+0x2277+-0x1*0x42f1),'AUTH_WAL_MAX_LINES':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x15d*0x7+-0x2692*0x1+0x1d6b)[_0x1d2990(0x162)](-0x11*0x255+0x102*0x19+0x3583),'AUTH_WAL_REWRITE_INTERVAL_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x61b*-0x6+-0x679+0x1*0x2b1b)[_0x1d2990(0x162)]((0x197d+-0xd*0x15f+-0x7a5)*(-0x1*-0x1bdf+0x1a8c+0x61*-0x8f)*(0x47f+0x42*0x5a+-0x17cb)),'RATE_LIMIT':z[_0x1d2990(0x148)](z[_0x1d2990(0x1e8)]({'window':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1680+-0x202e+-0x85*-0x6a),'limit':z['number']()[_0x1d2990(0x1b6)](0x5ae+-0x839+-0xa3*-0x4)}))['default']([{'window':0x3e8,'limit':0x5},{'window':0xea60,'limit':0x14}]),'OUTGOING_MAX_QUEUE':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1795+0x197e+-0x3113)['default'](0x169*0x11+0x22c6+0x32ef*-0x1),'SEND_RETRY_ATTEMPTS':z[_0x1d2990(0x1ad)]()['min'](-0x1f*0x2a+-0x1b0*0x1+-0x2*-0x363)['default'](0x7*0xf9+0x1400*-0x1+-0x1f*-0x6d),'SEND_RETRY_BASE_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x242b*0x1+0xd*0x2d7+0x8*-0x18)[_0x1d2990(0x162)](0x1c*0xe2+-0x1*-0x2659+-0x3d1d),'CONTACT_CACHE_TTL_MS':z[_0x1d2990(0x1ad)]()['min'](0x2cc*-0xb+0x16fd+0x7c7)[_0x1d2990(0x162)]((0x2d8*-0x8+0x402+-0x2b6*-0x7)*(-0x1b71*-0x1+-0x4ee+-0x1647)*(-0x1312+-0x1c3+-0x3*-0x83f)),'CHAT_CACHE_TTL_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x19f0+-0x15*0xca+-0x95e)['default']((0x166f*0x1+0x2*-0x206+-0x1245)*(0x5*0x267+-0x1*-0x1227+-0x1dee)*(-0x16d7+-0x41*-0x56+0x1*0x4e9)),'DLQ_PATH':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x182)),'DLQ_MAX_SIZE_BYTES':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x139+0x1*-0x1045+0x117e)[_0x1d2990(0x162)]((0xf14+0x77*0x53+-0x31a9)*(-0x1af3*-0x1+-0x217a+0xa87)),'DLQ_MAX_FILES':z['number']()['min'](0x8*-0x43f+-0x4*-0x7a0+0x378)[_0x1d2990(0x162)](-0x2f*-0x23+0x1c*0x20+0x27a*-0x4),'COMMAND_PREFIX':z[_0x1d2990(0x1d9)]([z[_0x1d2990(0x164)](),z[_0x1d2990(0x148)](z[_0x1d2990(0x1cd)]())[_0x1d2990(0x1b6)](0x2e*-0xd4+0x1387+-0x2*-0x949),z[_0x1d2990(0x1cd)]()])[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)](null),'SHUTDOWN_DRAIN_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x223+-0x658+0x435)[_0x1d2990(0x162)](-0x2697+-0x2*-0xd81+0x1f1d*0x1),'PROJECT_ROOT':z['string']()[_0x1d2990(0x162)](process[_0x1d2990(0x168)]()),'ALLOW_GROUP_COMMANDS':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](![]),'FOOTBALL_API_KEY':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1dd)](),'CLOUDINARY_CLOUD_NAME':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1dd)](),'CLOUDINARY_API_KEY':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1dd)](),'CLOUDINARY_API_SECRET':z[_0x1d2990(0x1cd)]()['optional'](),'OMDB_API_KEY':z[_0x1d2990(0x1cd)]()['optional'](),'OPENWEATHER_API_KEY':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1dd)](),'SPAM':z['object']({'SPAM_THRESHOLD':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1afc+-0x1727*0x1+-0x3d4)[_0x1d2990(0x162)](-0x1268+0x25e1*0x1+-0x33e*0x6),'SPAM_WINDOW_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0xd*0x3b+0x21a*-0x3+0x94d)['default'](0x51a+-0x166c+0x1079*0x2),'SPAM_COOLDOWN_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x463*0x6+-0x78d*0x2+-0x2*0x59c)[_0x1d2990(0x162)](0x1*0xe8d+-0x31c*-0xa+-0x1a1d),'MAX_WARNINGS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x5f7*-0x1+-0x1bd0+0x15da)[_0x1d2990(0x162)](-0x12d+-0x9*-0x115+-0x1*0x88d),'WARN_EXPIRY_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x29*0x9d+0x2159*0x1+-0x834)[_0x1d2990(0x162)]((-0x86a+0x4*0x91e+-0x1c07)*(0x1181*0x2+0x3a9*-0x9+0x1f9*-0x1)*(-0xb*0x247+0xc0f+0xd3a)*(-0x1*-0x88f+0x171a+-0x1f6d)*(-0x6a5*-0x3+0x133e*0x2+-0x3683)),'KICK_ON_SPAM':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'WARNING_MESSAGE':z['string']()['default'](_0x1d2990(0x193)+_0x1d2990(0x1b1)+_0x1d2990(0x198)+_0x1d2990(0x1b5)+_0x1d2990(0x1d5)+_0x1d2990(0x15b)),'WARNING_TTL_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x13c6+-0x833*-0x1+0x21*-0xd9)[_0x1d2990(0x162)](0x75bf+0x25af*-0xa+0x1c667*0x1)})[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)]({}),'ADDITIONS':z[_0x1d2990(0x1e8)]({'DEFAULT_ENABLED':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'DEBOUNCE_MS':z[_0x1d2990(0x1ad)]()['min'](0x1123+-0x1554+0x431)['default'](0x17*-0x1b1+0x387+0x2f18),'SEND_IN_GROUP':z['boolean']()[_0x1d2990(0x162)](!![])})[_0x1d2990(0x1dd)]()['default']({}),'ANTILINK':z[_0x1d2990(0x1e8)]({'DEFAULT_ENABLED':z['boolean']()[_0x1d2990(0x162)](!![]),'SEND_WARNING':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'WARNING_MESSAGE':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x192)+_0x1d2990(0x18a)+_0x1d2990(0x1bf)+'d\x20here.\x20Re'+_0x1d2990(0x1b9)+'rnings\x20{wa'+_0x1d2990(0x1ee)),'WARNING_TTL_MS':z['number']()[_0x1d2990(0x1b6)](0x7bd+0x2*-0xf9+-0x5cb)['default'](-0x4e6+0x1c57*-0x1+0x34c5),'WHITE_LIST':z['array'](z['string']())['default']([]),'BATCH_SIZE':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1f5e+-0x6*-0x5f3+0x9*-0x7b)[_0x1d2990(0x162)](0x2675+0x1*-0x2332+-0x339),'BATCH_DELAY_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1db*-0x1+-0x1610+0x17eb)['default'](0x2122+-0xb49+-0x1*0x12b9),'GLOBAL_CONCURRENCY':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x215d+0x245f+-0x301)[_0x1d2990(0x162)](0x561+0xcc9+0x53*-0x38),'DELETE_RETRY_COUNT':z['number']()[_0x1d2990(0x1b6)](0x1fb3+-0x9d*0x8+0x169*-0x13)['default'](0x152e+-0x183c+0x9d*0x5),'DELETE_RETRY_INITIAL_BACKOFF_MS':z['number']()['min'](0x1449+-0xd3e+-0x70b)['default'](0x2314+-0x973+-0x1811),'PER_CHAT_QUEUE_LIMIT':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x3b*0x17+0xad5+-0x587)[_0x1d2990(0x162)](-0x285+0x5*-0x4d9+0x1eaa),'DEDUPE_TTL_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1*0x1875+-0x1*0x1b42+0x1*0x33b7)[_0x1d2990(0x162)](0x756+0x1e57+-0x1225),'MAX_WARNINGS':z[_0x1d2990(0x1ad)]()['min'](-0x1*0xc0d+0x8d4+0x33a)[_0x1d2990(0x162)](-0x23c4+0x1*0x2227+0x1a0),'WARN_RESET_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x410+0x25e*-0x2+0x8cc)[_0x1d2990(0x162)](-0x7*0x45a+0x2315*0x1+-0x49f),'REMOVE_ON_MAX':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'EXPRESSIONS':z[_0x1d2990(0x148)](z[_0x1d2990(0x1cd)]())[_0x1d2990(0x162)]([]),'VALIDATION_TIMEOUT_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1f30+0x1081+-0x2f4d)[_0x1d2990(0x162)](-0x9e3+-0x2430+0x3db3),'LOG_DELETED_LINKS':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![])})[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)]({}),'VIEWONCE_SKIP_IF_TARGET_EQUALS_SOURCE':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'VIEWONCE_ALLOW_GROUP_COMMANDS_DEFAULT':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](![]),'AUTOREACT_STATUS':z[_0x1d2990(0x1e8)]({'MIN_INTERVAL_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x771*-0x5+0x941*0x1+0x1bf4)['default'](0x21bb+-0x1f*0xc9+0x76*0x16),'IGNORE_BOT_USER':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](![]),'REACTIONS':z[_0x1d2990(0x1d9)]([z[_0x1d2990(0x148)](z[_0x1d2990(0x1cd)]()),z[_0x1d2990(0x1cd)]()])[_0x1d2990(0x162)](['🚀','🌎','♻️'])})[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)]({}),'AUTOVIEWSTATUS':z['boolean']()['default'](![]),'AUTOREAD_MESSAGES':z[_0x1d2990(0x17b)]()['default'](![]),'DELETE_MEDIA_DIRNAME':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x1c1)),'DELETE_DEBOUNCE_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x18df+0x1173*-0x1+0x2a52)[_0x1d2990(0x162)](-0x1*0x397+0x1*-0xfa7+0x1ef6),'DELETE_CONCURRENCY':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x2*0xd55+0xa0+-0x1b49)[_0x1d2990(0x162)](-0xa*0x25b+-0x751+0xf71*0x2),'DEFAULT_SEND_DELETE':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'DELETE_CLEANUP_DAYS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1cf*0x11+0xa37*0x1+-0x28f5)['default'](0x2ef*-0xd+-0x18b+-0x469*-0x9),'DELETE_CLEANUP_INTERVAL_MS':z['number']()[_0x1d2990(0x1b6)](0x1ed5+0x2142+-0x4017)[_0x1d2990(0x162)]((0x11*-0x22f+-0x20fb*0x1+0x22*0x210)*(-0x77*0x25+-0x1450+0xc95*0x3)*(-0x165a+0x26df+-0x1049*0x1)*(0x2686*0x1+-0x1e8f+0x1*-0x40f)),'DELETE_MEDIA_SEND_DELAY_MS':z[_0x1d2990(0x1ad)]()['min'](0x1d19+0x600+-0x2319)['default'](-0x26b*-0x1+-0x18ee+-0x7e5*-0x3),'DELETE_MAX_SEND_RETRIES':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x1*0x241a+0x3*0x97b+-0x408b)['default'](-0x545*0x2+0x1*0x170c+-0xc7f),'DELETE_INITIAL_BACKOFF_MS':z['number']()['min'](0x24f*-0x3+-0x133b+0x1a28)['default'](0x1f37+0x1767+-0x34aa),'FILTERS':z[_0x1d2990(0x1e8)]({'TYPING_SIM_MS':z['number']()[_0x1d2990(0x1b6)](-0x8b8+0xaa3+-0x1eb)[_0x1d2990(0x18f)](-0x4ab7+0x2ce8+-0x173*-0x3d)['default'](0x25*0x5f+0xe6f+0x5*-0x5a2),'RESPONSE_MODE':z['enum'](['roundrobin',_0x1d2990(0x1db)])[_0x1d2990(0x162)](_0x1d2990(0x1f3))})[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)]({}),'LOCKS':z[_0x1d2990(0x1e8)]({'DEFAULT_ENABLED':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'SEND_WARNING':z[_0x1d2990(0x17b)]()['default'](!![]),'WARNING_MESSAGE':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x193)+'that\x20word\x20'+_0x1d2990(0x183)+_0x1d2990(0x1a3)),'WARNING_TTL_MS':z[_0x1d2990(0x1ad)]()['min'](0x1*0x7e2+0xd6d+-0x154f)[_0x1d2990(0x162)](0x193f+0x2187+-0x273e),'PER_CHAT_QUEUE_LIMIT':z[_0x1d2990(0x1ad)]()['min'](0x6be+0xb50+0x1*-0x120d)[_0x1d2990(0x162)](-0x450+-0x1*0x23ab+-0x5f*-0x71),'BATCH_SIZE':z['number']()[_0x1d2990(0x1b6)](-0x86a+0x3d6+-0x17*-0x33)[_0x1d2990(0x162)](-0xa8*-0x5+-0x4*0x6d+-0x39*0x7),'BATCH_DELAY_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x5a3+0x2006+-0x1*0x1a63)[_0x1d2990(0x162)](0xc1*0x1c+0x4ba*0x7+-0x6*0x8b5),'GLOBAL_CONCURRENCY':z[_0x1d2990(0x1ad)]()['min'](0x242f+0x1*-0x1730+-0xcfe)[_0x1d2990(0x162)](0x2e*0x87+-0xb1f*0x1+-0xf*0xe0),'NORMALIZE_REMOVE_DIACRITICS':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](![])})[_0x1d2990(0x1dd)]()['default']({}),'MOVIE':z[_0x1d2990(0x1e8)]({'NEWSLETTER_IMAGES':z[_0x1d2990(0x148)](z[_0x1d2990(0x1cd)]()[_0x1d2990(0x1d0)]())[_0x1d2990(0x162)]([_0x1d2990(0x1c5)+'les.theboo'+_0x1d2990(0x16b)+_0x1d2990(0x14c)+_0x1d2990(0x1a0),_0x1d2990(0x1c5)+_0x1d2990(0x1a7)+'kiebasher.'+_0x1d2990(0x14c)+_0x1d2990(0x1d4),_0x1d2990(0x1c5)+_0x1d2990(0x1a7)+_0x1d2990(0x16b)+_0x1d2990(0x14c)+_0x1d2990(0x170)])})[_0x1d2990(0x1dd)]()['default']({}),'SCHED_CHECK_INTERVAL_MS':z[_0x1d2990(0x1ad)]()['min'](0xf15+-0x993+0xa*-0x29)[_0x1d2990(0x162)](0xf68a+0x1add5*0x1+-0x1b9ff),'SCHED_DEFAULT_TIMEZONE':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x167)+'robi'),'SCHED_SEND_RETRIES':z['number']()['min'](0x1*0x1bce+-0xc0*0x4+-0x18ce)['default'](-0x1ee9+-0x227+0x2113),'SCHED_INITIAL_BACKOFF_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x22dd+-0x5c1+-0x1cb8*0x1)[_0x1d2990(0x162)](-0x139+0x2*0x10fb+-0x6f*0x47),'STATUS_BROADCAST_DEFAULT_ENABLED':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![]),'STATUS_BROADCAST_DEFAULT_WARN':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x1bc)+_0x1d2990(0x152)+_0x1d2990(0x172)+_0x1d2990(0x14e)+_0x1d2990(0x1de)+'max_warns}'+_0x1d2990(0x1a9)+'G\x20WARNINGS'+_0x1d2990(0x1d7)+_0x1d2990(0x1d2)+_0x1d2990(0x1b4)+_0x1d2990(0x186)),'STATUS_BROADCAST_DEFAULT_MAX_WARN':z['number']()[_0x1d2990(0x1b6)](-0x151a+-0x1*-0x26cd+-0x5e6*0x3)[_0x1d2990(0x162)](0xc70+-0x3*-0x2bf+0x2e*-0x73),'STATUS_BROADCAST_DEFAULT_REASON':z['string']()[_0x1d2990(0x162)](_0x1d2990(0x161)+_0x1d2990(0x180)+_0x1d2990(0x166)),'STATUS_BROADCAST':z[_0x1d2990(0x1e8)]({'DEDUPE_TTL_MS':z['number']()[_0x1d2990(0x1b6)](-0xfd0+-0xe0e+0x106*0x21)[_0x1d2990(0x162)](-0x3231+-0xd0c8*-0x1+-0x1*0x2967)})[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)]({}),'STATUS_RECOVERY_DIR':z[_0x1d2990(0x1cd)]()[_0x1d2990(0x162)](_0x1d2990(0x1f8)+'s'),'STATUS_RECOVERY_CLEANUP_INTERVAL_MS':z[_0x1d2990(0x1ad)]()['min'](-0x60c1+-0x6*-0x1372+-0x1ea3*-0x7)[_0x1d2990(0x162)]((-0x686+-0x1*-0x69d+-0x1*-0x1)*(-0x612+0x506*0x7+-0xe6e*0x2)*(-0xabe+-0x2599+-0x3*-0x1031)*(-0x4f*-0x4b+0x198e*-0x1+0x651)),'STATUS_RECOVERY_KEEP_SECONDS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1fe9+-0xf85*0x1+0x3d7e)[_0x1d2990(0x162)]((-0x8ef+0x1*-0x1015+0x191c)*(-0x6*-0x11f+-0x1d23*-0x1+-0x23a1)*(-0x2f3*-0x5+0x70d+-0x1590)),'STATUS_RECOVERY_RESPONDED_LIMIT':z[_0x1d2990(0x1ad)]()['min'](-0xfb*0x1b+0x81a+-0x1*-0x12c3)['default'](0x162c+-0x1d*0xa4+0xff0),'STATUS_RECOVERY_RESPONDED_TRIM_KEEP':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1720+0x35*-0xd+0x1*0x1a35)[_0x1d2990(0x162)](0x11*-0x1e+0x5*0x371+-0x37f),'STATUS_RECOVERY_MAX_DOWNLOAD_BYTES_WARN':z['number']()[_0x1d2990(0x1b6)](0xe9c+0x9a*0x4+-0xd04)[_0x1d2990(0x162)]((0x167e+0x7*0x1a6+-0x21fe)*(0x257f*0x1+0x125d+-0x33dc)*(-0xb6*-0x11+0x38*0x6f+-0x205e)),'STATUS_AUTOSEND_RESPONDED_LIMIT':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x2078+0x1f75*-0x1+-0x35*0x3)[_0x1d2990(0x162)](-0xe0a+0x1*-0x1db7+0x3f49),'STATUS_AUTOSEND_RESPONDED_TRIM_KEEP':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](0x821*0x3+0x1341+0x2b40*-0x1)[_0x1d2990(0x162)](0x9d*0x2f+-0x136+-0xfe5),'STATUS_AUTOSEND_MAX_DOWNLOAD_BYTES_WARN':z[_0x1d2990(0x1ad)]()['min'](0x77*0x3f+0xeb9+0x239*-0x12)[_0x1d2990(0x162)]((0x518+-0xd8c+0x87e)*(0x17f3+-0xabd*0x1+-0x2*0x49b)*(0x1398+-0x12d*-0xf+-0x213b)),'WARN_SYSTEM':z[_0x1d2990(0x1e8)]({'MAX_WARNS':z[_0x1d2990(0x1ad)]()['min'](-0x1536+0x1e19+-0x2*0x471)[_0x1d2990(0x162)](-0x197c+-0x14*0x118+-0x1*-0x2f5f),'WARN_MESSAGE':z[_0x1d2990(0x1cd)]()['default'](_0x1d2990(0x1bc)+_0x1d2990(0x152)+_0x1d2990(0x172)+'r}\x0a*MAX\x20WA'+'RNINGS:*\x20{'+_0x1d2990(0x16a)+_0x1d2990(0x1a9)+_0x1d2990(0x1a6)+_0x1d2990(0x1d7)+'ing_warns}'+_0x1d2990(0x1b4)+_0x1d2990(0x186)),'DEFAULT_REASON':z['string']()['default'](_0x1d2990(0x15a)+_0x1d2990(0x1d1)+'.'),'SHOW_TRIGGER_IN_REASON':z[_0x1d2990(0x17b)]()[_0x1d2990(0x162)](!![])})['optional']()['default']({}),'WELCOME':z[_0x1d2990(0x1e8)]({'DEFAULT_ENABLED':z['boolean']()[_0x1d2990(0x162)](!![]),'GROUP_SIZE_CACHE_TTL_MS':z['number']()[_0x1d2990(0x1b6)](-0x74*-0x35+-0x13d7+-0x42d)[_0x1d2990(0x162)]((0x209c+-0x784+0x31*-0x83)*(-0x2*0xb66+0x2639*0x1+-0x1*0xf31)*(-0x1170+0x13a*-0x11+0x1*0x2a32)),'WHATSAPP_GROUP_MAX':z[_0x1d2990(0x1ad)]()['min'](-0x1274*0x1+0x60d+0x8*0x18d)[_0x1d2990(0x162)](0x1*-0xcb3+-0x2e+0x10e2),'DEBOUNCE_MS':z[_0x1d2990(0x1ad)]()[_0x1d2990(0x1b6)](-0x1441+-0x1*-0x19db+-0x59a)[_0x1d2990(0x162)](-0x16c3*0x1+-0xc72+-0x2b05*-0x1)})[_0x1d2990(0x1dd)]()[_0x1d2990(0x162)]({})});let config={};function readConfigFile(_0x3f78a9){const _0x1ef9f0=_0x1d2990;if(!_0x157799['existsSync'](_0x3f78a9))return{};const _0x32dfe6=_0x7a0cd3[_0x1ef9f0(0x1e6)](_0x3f78a9)['toLowerCas'+'e'](),_0x1a0ea2=_0x157799[_0x1ef9f0(0x159)+'nc'](_0x3f78a9,_0x1ef9f0(0x17d));try{if(_0x32dfe6===_0x1ef9f0(0x1fd)||_0x32dfe6===_0x1ef9f0(0x1e4))return _0x3817e5['parse'](_0x1a0ea2)||{};else{if(_0x32dfe6==='.json')return JSON[_0x1ef9f0(0x1bb)](_0x1a0ea2);}}catch(_0x57ce59){error(_0x1ef9f0(0x1c2)+'parse\x20conf'+_0x1ef9f0(0x1c6)+'\x20'+_0x3f78a9+':',_0x57ce59);throw _0x57ce59;}return{};}function loadConfig(){const _0x4b0520=_0x1d2990,_0x189f6d=!_0x157799[_0x4b0520(0x1ea)](LAST_CONFIG_PATH);let _0x4e0fb5={};if(!_0x189f6d)try{_0x4e0fb5=JSON[_0x4b0520(0x1bb)](_0x157799[_0x4b0520(0x159)+'nc'](LAST_CONFIG_PATH,_0x4b0520(0x17d)));}catch(_0x88fb2){warn(_0x4b0520(0x1c2)+'read\x20previ'+_0x4b0520(0x196)+_0x4b0520(0x154)+_0x4b0520(0x1be)+_0x4b0520(0x171)+_0x4b0520(0x165),_0x88fb2);}const _0x53eb1f=readConfigFile(CONFIG_PATH),_0x1ff263={..._0x53eb1f,'SESSION_ID':process[_0x4b0520(0x1e9)]['SESSION_ID']??_0x53eb1f[_0x4b0520(0x176)],'ADMIN_TOKEN':process[_0x4b0520(0x1e9)][_0x4b0520(0x17a)+'N']??_0x53eb1f[_0x4b0520(0x17a)+'N'],'SENTRY_DSN':process[_0x4b0520(0x1e9)][_0x4b0520(0x1dc)]??_0x53eb1f[_0x4b0520(0x1dc)],'DATABASE_URL':process[_0x4b0520(0x1e9)][_0x4b0520(0x19a)+'RL']??_0x53eb1f[_0x4b0520(0x19a)+'RL'],'FOOTBALL_API_KEY':process[_0x4b0520(0x1e9)][_0x4b0520(0x1c0)+_0x4b0520(0x1fa)]??_0x53eb1f[_0x4b0520(0x1c0)+_0x4b0520(0x1fa)],'CLOUDINARY_CLOUD_NAME':process[_0x4b0520(0x1e9)][_0x4b0520(0x1f9)+_0x4b0520(0x181)+'E']??_0x53eb1f[_0x4b0520(0x1f9)+_0x4b0520(0x181)+'E'],'CLOUDINARY_API_KEY':process['env'][_0x4b0520(0x1f9)+'_API_KEY']??_0x53eb1f[_0x4b0520(0x1f9)+'_API_KEY'],'CLOUDINARY_API_SECRET':process[_0x4b0520(0x1e9)][_0x4b0520(0x1f9)+'_API_SECRE'+'T']??_0x53eb1f[_0x4b0520(0x1f9)+_0x4b0520(0x1b0)+'T'],'OMDB_API_KEY':process[_0x4b0520(0x1e9)][_0x4b0520(0x1c3)+'EY']??_0x53eb1f['OMDB_API_K'+'EY'],'OPENWEATHER_API_KEY':process[_0x4b0520(0x1e9)][_0x4b0520(0x197)+_0x4b0520(0x1e7)]??_0x53eb1f[_0x4b0520(0x197)+_0x4b0520(0x1e7)]};try{config=ConfigSchema[_0x4b0520(0x1bb)](_0x1ff263),_0x189f6d?info(_0x4b0520(0x1b8)+_0x4b0520(0x18d)+'n\x20loaded.\x20'+_0x4b0520(0x190)+'\x20has\x20been\x20'+_0x4b0520(0x1f4)+_0x4b0520(0x157)+'omparisons'+'.'):info(_0x4b0520(0x16c)+_0x4b0520(0x14a)+_0x4b0520(0x1f7)+_0x4b0520(0x175));}catch(_0x36d70e){error(_0x4b0520(0x16c)+_0x4b0520(0x14a)+'tion\x20faile'+'d:',_0x36d70e[_0x4b0520(0x151)]),process[_0x4b0520(0x1af)](0x1514+0x1fa2+-0x34b5);}if(!_0x189f6d&&Object[_0x4b0520(0x1b2)](_0x4e0fb5)[_0x4b0520(0x177)]>-0x2*0x4b3+0x1d8e+-0x1428){const _0x2a577e=Object[_0x4b0520(0x1b2)](config)['filter'](_0x3dec9a=>{const _0x22107c=_0x4b0520;if(SENSITIVE_KEYS[_0x22107c(0x169)](_0x3dec9a)){const _0x54c298=config[_0x3dec9a]!==undefined&&config[_0x3dec9a]!==null,_0x46893a=_0x4e0fb5[_0x3dec9a]!==undefined&&_0x4e0fb5[_0x3dec9a]!==null;return _0x54c298!==_0x46893a;}return JSON['stringify'](config[_0x3dec9a])!==JSON['stringify'](_0x4e0fb5[_0x3dec9a]);});if(_0x2a577e[_0x4b0520(0x177)]){const _0x2651fe=_0x2a577e[_0x4b0520(0x1c7)](_0x42ebd5=>_0x42ebd5+'='+(SENSITIVE_KEYS[_0x4b0520(0x169)](_0x42ebd5)?_0x4b0520(0x1d6):JSON[_0x4b0520(0x1a1)](config[_0x42ebd5])))['join'](',\x20');info(_0x4b0520(0x16d)+_0x4b0520(0x1d3)+'\x20'+_0x2651fe);}_0x2a577e[_0x4b0520(0x177)]>-0x5fe+0x1e10+-0x1da*0xd&&reloadListeners[_0x4b0520(0x177)]>0x1899+-0xaea+-0x1*0xdaf&&reloadListeners[_0x4b0520(0x19f)](_0x110fcb=>{const _0x5354df=_0x4b0520;try{_0x110fcb(_0x2a577e);}catch(_0x3fe193){warn('A\x20hotReloa'+'d\x20listener'+_0x5354df(0x155)+_0x5354df(0x15d),_0x3fe193);}});}const _0x549b08={...config};for(const _0x282cd6 of SENSITIVE_KEYS){Object[_0x4b0520(0x18b)]['hasOwnProp'+'erty'][_0x4b0520(0x1ac)](_0x549b08,_0x282cd6)&&_0x549b08[_0x282cd6]&&(_0x549b08[_0x282cd6]=_0x4b0520(0x149));}try{_0x157799[_0x4b0520(0x163)](_0x7a0cd3[_0x4b0520(0x188)](LAST_CONFIG_PATH),{'recursive':!![]}),_0x157799[_0x4b0520(0x1fb)+_0x4b0520(0x1ae)](LAST_CONFIG_PATH,JSON['stringify'](_0x549b08,null,0x1*-0x8b+0x152d+0x18*-0xdc));}catch(_0x308bcc){warn(_0x4b0520(0x1c2)+_0x4b0520(0x1ba)+_0x4b0520(0x150)+':',_0x308bcc);}}loadConfig(),watcher['on'](_0x1d2990(0x156),()=>{const _0x28c92c=_0x1d2990;info('Config\x20fil'+_0x28c92c(0x17e)+'\x20Reloading'+'...');try{loadConfig();}catch(_0x2dfbed){error(_0x28c92c(0x14f)+_0x28c92c(0x1a5)+_0x28c92c(0x195)+':',_0x2dfbed);}});function _0x28e2(_0x5d9ecd,_0x434294){const _0x139571=_0x28ab();return _0x28e2=function(_0x27a3a3,_0xdadb2a){_0x27a3a3=_0x27a3a3-(-0x69b+-0x1b7a+0xb*0x337);let _0x17a26b=_0x139571[_0x27a3a3];return _0x17a26b;},_0x28e2(_0x5d9ecd,_0x434294);}export function getConfig(){return config;}
+// config.js
+import dotenv from 'dotenv';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import chokidar from 'chokidar';
+import { z } from 'zod';
+import YAML from 'yaml';
+import { info, error, warn } from './logger.js';
+
+// --- Project Root Discovery ---
+function findProjectRoot() {
+  let currentDir = path.dirname(fileURLToPath(import.meta.url));
+  while (true) {
+    if (fs.existsSync(path.join(currentDir, 'package.json'))) {
+      return currentDir;
+    }
+    const parentDir = path.dirname(currentDir);
+    if (parentDir === currentDir) {
+      throw new Error('Could not find project root containing a package.json file.');
+    }
+    currentDir = parentDir;
+  }
+}
+
+export const PROJECT_ROOT = findProjectRoot();
+
+// --- .env File Loading ---
+const envPath = path.resolve(PROJECT_ROOT, '.env');
+if (fs.existsSync(envPath)) {
+  dotenv.config({ path: envPath });
+  info(`Loaded environment variables from ${envPath}`);
+} else {
+  info(`.env file not found at ${envPath}, continuing without it.`);
+}
+
+// --- Configuration File Discovery ---
+export function findConfigFile() {
+  const candidates = ['config.yml', 'config.yaml', 'config.json'];
+  for (const name of candidates) {
+    const p = path.resolve(PROJECT_ROOT, name);
+    if (fs.existsSync(p)) {
+      info(`Using config file: ${p}`);
+      return p;
+    }
+  }
+  const defaultPath = path.resolve(PROJECT_ROOT, 'config.yml');
+  info(`No config file found. Defaulting to: ${defaultPath}`);
+  return defaultPath;
+}
+
+const CONFIG_PATH = findConfigFile();
+const LAST_CONFIG_PATH = path.resolve(PROJECT_ROOT, 'data', 'config', '.last.json');
+
+// --- Sensitive Keys (for logging and snapshot masking) ---
+const SENSITIVE_KEYS = [
+    'ADMIN_TOKEN', 
+    'SESSION_ID', 
+    'SENTRY_DSN', 
+    'DATABASE_URL',
+    'FOOTBALL_API_KEY', 
+    'CLOUDINARY_API_KEY', 
+    'CLOUDINARY_API_SECRET',
+    'OMDB_API_KEY',
+    'OPENWEATHER_API_KEY'
+];
+
+// --- Hot Reloading Setup ---
+const watcher = chokidar.watch(CONFIG_PATH, { persistent: true, ignoreInitial: true });
+const reloadListeners = [];
+
+export function hotReloadConfig(cb) {
+  if (typeof cb === 'function') {
+    reloadListeners.push(cb);
+  }
+}
+
+// --- Configuration Schema (using Zod) ---
+const ConfigSchema = z.object({
+  // General
+  NODE_ENV: z.enum(['development', 'production']).default('development'),
+  TIMEZONE: z.string().default('Africa/Nairobi'),
+ 
+  // Logger Settings
+  LOG_LEVEL: z.string().default('info'),
+  LOG_DIR: z.string().default('Bookielogs'),
+  PROD_LOG_FILENAME: z.string().default('prod.log'),
+  DEV_LOG_FILENAME: z.string().default('dev.log'),
+  LOG_ROTATION_FREQUENCY: z.string().default('daily'),
+  LOG_ROTATION_SIZE: z.string().default('10M'),
+  LOG_QUERIES: z.boolean().default(false),
+  SENTRY_DSN: z.string().optional(),
+  SENTRY_TRACES_SAMPLE_RATE: z.number().min(0).max(1).default(1.0),
+
+  // Module Loader & Health Monitoring
+  BOOKIES_DIR_NAME: z.string().default('carl'),
+  MODULES_DIRECTORY: z.string().default('modules'),
+  CARL_DIRECTORY: z.string().default('carl'),
+  MODULE_CONCURRENCY_LIMIT: z.number().min(1).default(5),
+  ALLOWED_MODULE_EXTENSIONS: z.array(z.string()).default(['.js', '.mjs', '.cjs']),
+  MAX_MODULE_FILE_SIZE_WARN_BYTES: z.number().min(0).default(1048576),
+  MAX_HANDLERS_WARNING_THRESHOLD: z.number().min(1).default(100),
+  MODULE_RELOAD_DEBOUNCE_MS: z.number().min(0).default(300),
+  HEALTH_CHECK_INTERVAL_MS: z.number().min(0).default(60000),
+  HIGH_MEMORY_USAGE_WARN_MB: z.number().min(0).default(100),
+  CRITICAL_MEMORY_USAGE_MB: z.number().min(0).default(100),
+  KILL_ON_HIGH_MEMORY: z.boolean().default(false),
+  MODULE_STATS_INTERVAL_MS: z.number().min(0).default(300000),
+  BOT_HOOKS_KEY_SYMBOL: z.string().default('@@myBotHooksAttached'),
+
+  // Database Settings
+  DB_PATH: z.string().default('data/db'),
+  DB_NAME: z.string().default('bot.db'),
+  DB_BATCH_SIZE: z.number().min(1).default(100),
+  DB_FLUSH_INTERVAL: z.number().min(1000).default(5000),
+  DB_CACHE_MAX_BYTES: z.number().min(0).default(500 * 1024 * 1024),
+  DATABASE_URL: z.string().url().optional(),
+
+  // Listener Manager Settings
+  ATTACH_WATCHER_MS: z.number().min(500).default(3000),
+  SOCK_MONITOR_MS: z.number().min(500).default(1500),
+
+  // Baileys & Bot Settings
+  BAILEYS_PINO_LEVEL: z.enum(['trace', 'debug', 'info', 'warn', 'error', 'fatal', 'silent']).default('error'),
+  CACHE_TTL_MS: z.number().min(0).default(60 * 1000),
+  CACHE_MAX_SIZE_BYTES: z.number().min(0).default(20 * 1024 * 1024),
+  MEMORY_STORE_MAX_BYTES: z.number().min(0).default(500 * 1024 * 1024),
+  AUTH_STATE_DIR: z.string().default('.auth'),
+  SESSION_ID: z.string().optional(),
+  ADMIN_TOKEN: z.string().optional(),
+  BAILEYS_BROWSER: z.tuple([z.string(), z.string(), z.string()]).default(['lwskky', 'Chrome', '19.1.0']),
+  AUTH_WAL_MAX_FILE_SIZE_KB: z.number().min(1).default(1024),
+  AUTH_WAL_MAX_LINES: z.number().min(100).default(10000),
+  AUTH_WAL_REWRITE_INTERVAL_MS: z.number().min(0).default(5 * 60 * 1000),
+  RATE_LIMIT: z.array(z.object({
+      window: z.number().min(100),
+      limit: z.number().min(1)
+  })).default([{ window: 1000, limit: 5 }, { window: 60000, limit: 20 }]),
+  OUTGOING_MAX_QUEUE: z.number().min(0).default(2000),
+  SEND_RETRY_ATTEMPTS: z.number().min(0).default(2),
+  SEND_RETRY_BASE_MS: z.number().min(0).default(500),
+  CONTACT_CACHE_TTL_MS: z.number().min(0).default(60 * 60 * 1000),
+  CHAT_CACHE_TTL_MS: z.number().min(0).default(30 * 60 * 1000),
+  DLQ_PATH: z.string().default('.dlq'),
+  DLQ_MAX_SIZE_BYTES: z.number().min(0).default(1024 * 1024),
+  DLQ_MAX_FILES: z.number().min(0).default(5),
+  COMMAND_PREFIX: z.union([z.null(), z.array(z.string()).min(1), z.string()]).optional().default(null),
+  SHUTDOWN_DRAIN_MS: z.number().min(0).default(5000),
+  PROJECT_ROOT: z.string().default(process.cwd()),
+  ALLOW_GROUP_COMMANDS: z.boolean().default(false),
+ 
+  // API Keys
+  FOOTBALL_API_KEY: z.string().optional(),
+  CLOUDINARY_CLOUD_NAME: z.string().optional(),
+  CLOUDINARY_API_KEY: z.string().optional(),
+  CLOUDINARY_API_SECRET: z.string().optional(),
+  OMDB_API_KEY: z.string().optional(),
+  OPENWEATHER_API_KEY: z.string().optional(),
+
+  // --- MODULE-SPECIFIC SETTINGS ---
+  // SPAM Module (matches defaults in spam.js CFG)
+  SPAM: z.object({
+    SPAM_THRESHOLD: z.number().min(1).default(5),
+    SPAM_WINDOW_MS: z.number().min(0).default(4000),
+    SPAM_COOLDOWN_MS: z.number().min(0).default(5000),
+    MAX_WARNINGS: z.number().min(1).default(3),
+    WARN_EXPIRY_MS: z.number().min(0).default(7 * 24 * 60 * 60 * 1000),
+    KICK_ON_SPAM: z.boolean().default(true),
+    WARNING_MESSAGE: z.string().default('⚠️ {user}, stop spamming. Remaining warnings: {warnings}'),
+    WARNING_TTL_MS: z.number().min(0).default(50000)
+  }).optional().default({}),
+
+  // Additions Module
+  ADDITIONS: z.object({
+    DEFAULT_ENABLED: z.boolean().default(true),
+    DEBOUNCE_MS: z.number().min(0).default(3000),
+    SEND_IN_GROUP: z.boolean().default(true),
+  }).optional().default({}),
+
+  // Antilink Module
+  ANTILINK: z.object({
+    DEFAULT_ENABLED: z.boolean().default(true),
+    SEND_WARNING: z.boolean().default(true),
+    WARNING_MESSAGE: z.string().default('🔗 {user}, links are not allowed here. Remaining warnings {warnings}'),
+    WARNING_TTL_MS: z.number().min(0).default(5000),
+    WHITE_LIST: z.array(z.string()).default([]),
+    BATCH_SIZE: z.number().min(1).default(10),
+    BATCH_DELAY_MS: z.number().min(0).default(800),
+    GLOBAL_CONCURRENCY: z.number().min(1).default(2),
+    DELETE_RETRY_COUNT: z.number().min(0).default(3),
+    DELETE_RETRY_INITIAL_BACKOFF_MS: z.number().min(0).default(400),
+    PER_CHAT_QUEUE_LIMIT: z.number().min(1).default(1000),
+    DEDUPE_TTL_MS: z.number().min(0).default(5000),
+    MAX_WARNINGS: z.number().min(1).default(3),
+    WARN_RESET_MS: z.number().min(0).default(0),
+    REMOVE_ON_MAX: z.boolean().default(true),
+    EXPRESSIONS: z.array(z.string()).default([]),
+    VALIDATION_TIMEOUT_MS: z.number().min(100).default(4000),
+    LOG_DELETED_LINKS: z.boolean().default(true),
+  }).optional().default({}),
+
+  // Anti-Viewonce Module
+  VIEWONCE_SKIP_IF_TARGET_EQUALS_SOURCE: z.boolean().default(true),
+  VIEWONCE_ALLOW_GROUP_COMMANDS_DEFAULT: z.boolean().default(false),
+
+  // Autoreact Status Module
+  AUTOREACT_STATUS: z.object({
+    MIN_INTERVAL_MS: z.number().min(0).default(5000),
+    IGNORE_BOT_USER: z.boolean().default(false),
+    REACTIONS: z.union([z.array(z.string()), z.string()]).default(['🚀', '🌎', '♻️']),
+  }).optional().default({}),
+  
+  // Autoview Status & Read Receipts
+  AUTOVIEWSTATUS: z.boolean().default(false),
+  AUTOREAD_MESSAGES: z.boolean().default(false),
+
+  // Delete Recovery Module
+  DELETE_MEDIA_DIRNAME: z.string().default('media'),
+  DELETE_DEBOUNCE_MS: z.number().min(0).default(3000),
+  DELETE_CONCURRENCY: z.number().min(1).default(3),
+  DEFAULT_SEND_DELETE: z.boolean().default(true),
+  DELETE_CLEANUP_DAYS: z.number().min(1).default(3),
+  DELETE_CLEANUP_INTERVAL_MS: z.number().min(0).default(6 * 60 * 60 * 1000),
+  DELETE_MEDIA_SEND_DELAY_MS: z.number().min(0).default(300),
+  DELETE_MAX_SEND_RETRIES: z.number().min(0).default(3),
+  DELETE_INITIAL_BACKOFF_MS: z.number().min(0).default(500),
+
+  // Filter Module
+  FILTERS: z.object({
+    TYPING_SIM_MS: z.number().min(0).max(15000).default(0),
+    RESPONSE_MODE: z.enum(['roundrobin', 'random']).default('roundrobin'),
+  }).optional().default({}),
+
+  // Lock Module
+  LOCKS: z.object({
+      DEFAULT_ENABLED: z.boolean().default(true),
+      SEND_WARNING: z.boolean().default(true),
+      WARNING_MESSAGE: z.string().default('⚠️ {user}, that word is not allowed.'),
+      WARNING_TTL_MS: z.number().min(0).default(5000),
+      PER_CHAT_QUEUE_LIMIT: z.number().min(1).default(500),
+      BATCH_SIZE: z.number().min(1).default(5),
+      BATCH_DELAY_MS: z.number().min(0).default(500),
+      GLOBAL_CONCURRENCY: z.number().min(1).default(3),
+      NORMALIZE_REMOVE_DIACRITICS: z.boolean().default(false),
+  }).optional().default({}),
+  
+  // Movie Module
+  MOVIE: z.object({
+    NEWSLETTER_IMAGES: z.array(z.string().url()).default([
+        'https://files.thebookiebasher.win/media/tct2.jpg',
+        'https://files.thebookiebasher.win/media/tct5.jpg',
+        'https://files.thebookiebasher.win/media/movie.jpg'
+    ])
+  }).optional().default({}),
+
+  // Scheduler Module
+  SCHED_CHECK_INTERVAL_MS: z.number().min(1000).default(60000),
+  SCHED_DEFAULT_TIMEZONE: z.string().default('Africa/Nairobi'),
+  SCHED_SEND_RETRIES: z.number().min(0).default(3),
+  SCHED_INITIAL_BACKOFF_MS: z.number().min(100).default(500),
+
+  // Status Lock Module
+  STATUS_BROADCAST_DEFAULT_ENABLED: z.boolean().default(true),
+  STATUS_BROADCAST_DEFAULT_WARN: z.string().default('*⚠️WARN MESSAGE⚠️*\n\n*USER:* {user}\n*MAX WARNINGS:* {max_warns}\n*REMAINING WARNINGS:* {remaining_warns}\n*REASON:* {reason}'),
+  STATUS_BROADCAST_DEFAULT_MAX_WARN: z.number().min(1).default(3),
+  STATUS_BROADCAST_DEFAULT_REASON: z.string().default('Posting status broadcasts.'),
+  STATUS_BROADCAST: z.object({
+      DEDUPE_TTL_MS: z.number().min(1000).default(30000),
+  }).optional().default({}),
+
+  // Status Recovery Module
+  STATUS_RECOVERY_DIR: z.string().default('data/status'),
+  STATUS_RECOVERY_CLEANUP_INTERVAL_MS: z.number().min(60000).default(24 * 60 * 60 * 1000),
+  STATUS_RECOVERY_KEEP_SECONDS: z.number().min(3600).default(24 * 60 * 60),
+  STATUS_RECOVERY_RESPONDED_LIMIT: z.number().min(100).default(5000),
+  STATUS_RECOVERY_RESPONDED_TRIM_KEEP: z.number().min(100).default(3000),
+  STATUS_RECOVERY_MAX_DOWNLOAD_BYTES_WARN: z.number().min(1024).default(10 * 1024 * 1024),
+
+  // Status Autosend Module
+  STATUS_AUTOSEND_RESPONDED_LIMIT: z.number().min(100).default(5000),
+  STATUS_AUTOSEND_RESPONDED_TRIM_KEEP: z.number().min(100).default(3000),
+  STATUS_AUTOSEND_MAX_DOWNLOAD_BYTES_WARN: z.number().min(1024).default(10 * 1024 * 1024),
+  
+  // Warn Module
+  WARN_SYSTEM: z.object({
+      MAX_WARNS: z.number().min(1).default(3),
+      WARN_MESSAGE: z.string().default('*⚠️WARN MESSAGE⚠️*\n\n*USER:* {user}\n*MAX WARNINGS:* {max_warns}\n*REMAINING WARNINGS:* {remaining_warns}\n*REASON:* {reason}'),
+      DEFAULT_REASON: z.string().default('Breaking group rules.'),
+      SHOW_TRIGGER_IN_REASON: z.boolean().default(true),
+  }).optional().default({}),
+  
+  // Welcome Module
+  WELCOME: z.object({
+      DEFAULT_ENABLED: z.boolean().default(true),
+      GROUP_SIZE_CACHE_TTL_MS: z.number().min(0).default(5 * 60 * 1000),
+      WHATSAPP_GROUP_MAX: z.number().min(1).default(1025),
+      DEBOUNCE_MS: z.number().min(0).default(2000),
+  }).optional().default({})
+
+});
+
+let config = {};
+
+function readConfigFile(filePath) {
+  if (!fs.existsSync(filePath)) return {};
+  const ext = path.extname(filePath).toLowerCase();
+  const raw = fs.readFileSync(filePath, 'utf8');
+  try {
+    if (ext === '.yml' || ext === '.yaml') {
+      return YAML.parse(raw) || {};
+    } else if (ext === '.json') {
+      return JSON.parse(raw);
+    }
+  } catch (err) {
+    error(`Failed to parse config file at ${filePath}:`, err);
+    throw err;
+  }
+  return {};
+}
+
+function loadConfig() {
+  // Determine if this is the first run by checking for the snapshot file's existence.
+  const isFirstRun = !fs.existsSync(LAST_CONFIG_PATH);
+  let prevSnapshot = {};
+
+  // If it's not the first run, load the previous snapshot.
+  if (!isFirstRun) {
+    try {
+      prevSnapshot = JSON.parse(fs.readFileSync(LAST_CONFIG_PATH, 'utf8'));
+    } catch (e) {
+      warn('Failed to read previous config snapshot. Treating as a new run:', e);
+      // If the file is corrupt, we'll treat it like a first run by leaving prevSnapshot empty.
+    }
+  }
+
+  const fileCfg = readConfigFile(CONFIG_PATH);
+
+  const merged = {
+    ...fileCfg,
+    // load timezone from .env (preferred), or from config file if not present.
+    TIMEZONE: process.env.TIMEZONE ?? process.env.TZ ?? fileCfg.TIMEZONE,
+    // scheduler timezone can also be set via .env
+    SCHED_DEFAULT_TIMEZONE: process.env.SCHED_DEFAULT_TIMEZONE ?? process.env.TIMEZONE ?? process.env.TZ ?? fileCfg.SCHED_DEFAULT_TIMEZONE,
+    SESSION_ID: process.env.SESSION_ID ?? fileCfg.SESSION_ID,
+    ADMIN_TOKEN: process.env.ADMIN_TOKEN ?? fileCfg.ADMIN_TOKEN,
+    SENTRY_DSN: process.env.SENTRY_DSN ?? fileCfg.SENTRY_DSN,
+    DATABASE_URL: process.env.DATABASE_URL ?? fileCfg.DATABASE_URL,
+    FOOTBALL_API_KEY: process.env.FOOTBALL_API_KEY ?? fileCfg.FOOTBALL_API_KEY,
+    CLOUDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME ?? fileCfg.CLOUDINARY_CLOUD_NAME,
+    CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY ?? fileCfg.CLOUDINARY_API_KEY,
+    CLOUDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET ?? fileCfg.CLOUDINARY_API_SECRET,
+    OMDB_API_KEY: process.env.OMDB_API_KEY ?? fileCfg.OMDB_API_KEY,
+    OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY ?? fileCfg.OPENWEATHER_API_KEY,
+  };
+
+  try {
+    config = ConfigSchema.parse(merged);
+    if (isFirstRun) {
+      info('Initial configuration loaded. A snapshot has been created for future comparisons.');
+    } else {
+      info('Configuration validated successfully.');
+    }
+  } catch (e) {
+    error('Configuration validation failed:', e.errors);
+    process.exit(1);
+  }
+
+  // Log where the timezone came from (env vs config file vs default)
+  if (process.env.TIMEZONE || process.env.TZ || process.env.SCHED_DEFAULT_TIMEZONE) {
+    info(`Timezone loaded from environment: TIMEZONE=${config.TIMEZONE}, SCHED_DEFAULT_TIMEZONE=${config.SCHED_DEFAULT_TIMEZONE}`);
+  } else if (fileCfg.TIMEZONE || fileCfg.SCHED_DEFAULT_TIMEZONE) {
+    info(`Timezone loaded from config file: TIMEZONE=${config.TIMEZONE}, SCHED_DEFAULT_TIMEZONE=${config.SCHED_DEFAULT_TIMEZONE}`);
+  } else {
+    info(`Timezone using default values: TIMEZONE=${config.TIMEZONE}, SCHED_DEFAULT_TIMEZONE=${config.SCHED_DEFAULT_TIMEZONE}`);
+  }
+
+  // Only compare and log changes on subsequent runs where a valid snapshot exists.
+  if (!isFirstRun && Object.keys(prevSnapshot).length > 0) {
+    const changedKeys = Object.keys(config).filter(k => {
+        // For sensitive keys, we only detect if they are added or removed, not changed.
+        // This is a trade-off for not storing sensitive values in the snapshot file.
+        if (SENSITIVE_KEYS.includes(k)) {
+            const isPresent = config[k] !== undefined && config[k] !== null;
+            const wasPresent = prevSnapshot[k] !== undefined && prevSnapshot[k] !== null;
+            return isPresent !== wasPresent;
+        }
+        // For all other keys, compare their stringified values.
+        return JSON.stringify(config[k]) !== JSON.stringify(prevSnapshot[k])
+    });
+
+    if (changedKeys.length) {
+      const safeLog = changedKeys.map(k => 
+          `${k}=${SENSITIVE_KEYS.includes(k) ? '"***"' : JSON.stringify(config[k])}`
+      ).join(', ');
+      info(`Config keys changed: ${safeLog}`);
+    }
+    
+    // Trigger listeners only if there were actual changes.
+    if (changedKeys.length > 0 && reloadListeners.length > 0) {
+      reloadListeners.forEach(fn => {
+        try {
+          fn(changedKeys);
+        } catch (e) {
+          warn('A hotReload listener threw an error:', e);
+        }
+      });
+    }
+  }
+
+  // Create a sanitized config for saving to the file system.
+  const sanitizedConfigForSnapshot = { ...config };
+  for (const key of SENSITIVE_KEYS) {
+    if (Object.prototype.hasOwnProperty.call(sanitizedConfigForSnapshot, key) && sanitizedConfigForSnapshot[key]) {
+      sanitizedConfigForSnapshot[key] = '***';
+    }
+  }
+
+  try {
+    fs.mkdirSync(path.dirname(LAST_CONFIG_PATH), { recursive: true });
+    // Write the sanitized version to the file.
+    fs.writeFileSync(LAST_CONFIG_PATH, JSON.stringify(sanitizedConfigForSnapshot, null, 2));
+  } catch (err) {
+    warn('Failed to save config snapshot:', err);
+  }
+}
+
+loadConfig();
+
+watcher.on('change', () => {
+  info('Config file changed. Reloading...');
+  try {
+    loadConfig();
+  } catch (e) {
+    error('Error during config hot-reload:', e);
+  }
+});
+
+export function getConfig() {
+  return config;
+}
