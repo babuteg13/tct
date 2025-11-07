@@ -12,7 +12,7 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@sentry/node": "10.5.0",
-    "@whiskeysockets/baileys": "7.0.0-rc.6",
+    "@whiskeysockets/baileys": "^7.0.0-rc.6",
     "axios": "^1.12.2",
     "chokidar": "4.0.3",
     "cloudinary": "2.7.0",
@@ -46,7 +46,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development node bot.js",
-    "start": "node bot.js", 
+    "start": "node bot.js",
     "tct": "npx pm2 start bot.js --name tct && npx pm2 logs tct"
   },
   "author": "TheCarlTech",
